@@ -1,0 +1,61 @@
+Export log for : SPECCY2007.Rep
+AddingPadStyle (Default)
+AddingPadStyle P:EX60Y60D201
+AddingPadStyle P:SX60Y60D201
+AddingPadStyle P:SX58Y58D201
+AddingPadStyle P:EX58Y58D201
+AddingPadStyle P:EX130Y130D1101
+AddingPadStyle P:EX112Y112D911
+AddingPadStyle P:EX60Y60D601
+AddingPadStyle EF50X130TOP1
+AddingPadStyle EF50X120TOP1
+AddingPadStyle EF80X100TOP1
+Adding ViaStyle (Default)
+Adding ViaStyle V:EX50Y50D281
+Adding TextStyle (Default)
+Adding TextStyle T:H60W10
+Adding TextStyle T:H68W10
+Adding PatternDef CAPPOL_2.54_1
+Adding PatternDef CAP_5.08-7.8x3.2_1
+Adding PatternDef CAPPOL_2.54_2
+Adding PatternDef TO92_1
+Adding PatternDef DIP-40_1
+Adding PatternDef PLCC84-Socket+AlteraMAX700S_1
+Adding PatternDef DIP-28W_1
+Adding PatternDef DIP-20_1
+Adding PatternDef DIP-20_2
+Adding PatternDef DIP-40_2
+Adding PatternDef DIP-32/D41.2_1
+Adding PatternDef TO92_2
+Adding PatternDef RES-2.54_1
+Adding PatternDef RES_10.16_1
+Adding PatternDef SW_T_SPDT_1
+Adding PatternDef CONN JACK PWR_1
+Adding PatternDef Mini-DIN6_1
+Adding PatternDef Mini-DIN8_1
+Adding PatternDef SD Card socket_1
+Adding PatternDef Double row pin strip 5 way_1
+Adding PatternDef OSC14_1
+Adding CompDef CAPPOL_2.54_1
+Adding CompDef CAP_5.08-7.8x3.2_1
+Adding CompDef CAPPOL_2.54_2
+Adding CompDef TO92_1
+Adding CompDef DIP-40_1
+Adding CompDef PLCC84-Socket+AlteraMAX700S_1
+Adding CompDef DIP-28W_1
+Adding CompDef DIP-20_1
+Adding CompDef DIP-20_2
+Adding CompDef DIP-40_2
+Adding CompDef DIP-32/D41.2_1
+Adding CompDef TO92_2
+Adding CompDef RES-2.54_1
+Adding CompDef RES_10.16_1
+Adding CompDef SW_T_SPDT_1
+Adding CompDef CONN JACK PWR_1
+Adding CompDef Mini-DIN6_1
+Adding CompDef Mini-DIN8_1
+Adding CompDef SD Card socket_1
+Adding CompDef Double row pin strip 5 way_1
+Adding CompDef OSC14_1
+ 
+EndLog

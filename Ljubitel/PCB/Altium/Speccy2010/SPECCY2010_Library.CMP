@@ -1,0 +1,15 @@
+Component   : CAPPOL_2.54
+PCB Library : SPECCY2010_Library.PcbLib
+Date        : 20.03.2010
+Time        : 19:50:57
+
+
+
+Dimension : 0.28 x 0.25 in
+
+ Layer(s)              Pads(s)  Tracks(s)  Fill(s)  Arc(s)  Text(s)
+--------------------------------------------------------------------
+ Top Overlay                 0          2        0       1        0
+ Multi Layer                 2          0        0       0        0
+--------------------------------------------------------------------
+ Total                       2          2        0       1        0

@@ -1,0 +1,19 @@
+---------------------------------------------------------------------------
+NCDrill File Report For: SPECCY2007.PcbDoc   01.02.2010  0:23:49
+---------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : SPECCY2007.TXT
+EIA File   : SPECCY2007.DRL
+
+Tool         Hole Size           Hole Type     Hole Count Plated       Tool Travel
+---------------------------------------------------------------------------
+T1        20mil (0.508mm)          Round          413              76.82 Inch (1951.21 mm)
+T2        28mil (0.7112mm)         Round          186              58.01 Inch (1473.57 mm)
+T3        60mil (1.524mm)          Round          2                0.95 Inch (24.13 mm)
+T4        91mil (2.3114mm)         Round          6                1.34 Inch (34.00 mm)
+T5        110mil (2.794mm)         Round          3                0.48 Inch (12.17 mm)
+---------------------------------------------------------------------------
+Totals                                            610              137.60 Inch (3495.08 mm)
+
+Total Processing Time (hh:mm:ss) : 00:00:00

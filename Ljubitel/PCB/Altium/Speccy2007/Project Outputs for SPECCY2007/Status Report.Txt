@@ -1,0 +1,13 @@
+Output: Gerber Files
+Type  : Gerber
+From  : Project [SPECCY2007.PRJPCB]
+   Generated File[SPECCY2007.GTS]
+   Generated File[SPECCY2007.RUL]
+   Generated File[SPECCY2007.EXTREP]
+   Generated File[SPECCY2007.REP]
+
+
+Files Generated   : 4
+Documents Printed : 0
+
+Finished Output Generation At 1:51:04 On 01.02.2010
