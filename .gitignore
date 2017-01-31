@@ -3,7 +3,8 @@ desktop.ini
 
 
 3d
-backup/
+backup//
+bak/
 local/
 old/
 wiki/
@@ -14,8 +15,8 @@ Project Logs for SPECCY2007
 Project Outputs for FP
 Project Logs for SPECCY2010
 
-
-
+GerberAImport4SL6(x86).exe
+GerberAImport4SL6.ini
 
 *.7z
 *.rar
