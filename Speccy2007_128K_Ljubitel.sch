@@ -19480,10 +19480,10 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <part name="R6Y" library="rcl" deviceset="R-EU_" device="R1206" value="4k7"/>
 <part name="R7Y" library="rcl" deviceset="R-EU_" device="R0805" value="4k7"/>
 <part name="C3Y" library="rcl" deviceset="C-EU" device="C0805" value="0.1"/>
-<part name="C1Y" library="rcl" deviceset="C-EU" device="C1206" value="1m"/>
+<part name="C1Y" library="rcl" deviceset="CPOL-EU" device="E2.5-6" value="1m"/>
 <part name="R5Y" library="rcl" deviceset="R-EU_" device="R0805" value="5k1"/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
-<part name="C2Y" library="rcl" deviceset="C-EU" device="C1206" value="1m"/>
+<part name="C2Y" library="rcl" deviceset="CPOL-EU" device="E2.5-6" value="1m"/>
 <part name="R8Y" library="rcl" deviceset="R-EU_" device="R0805" value="5k1"/>
 <part name="R9Y" library="rcl" deviceset="R-EU_" device="R0805" value="4k7"/>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
@@ -19586,6 +19586,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <part name="CE1" library="rcl" deviceset="C-EU" device="C0805" value="100n"/>
 <part name="+3V1" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V2" library="supply1" deviceset="+3V3" device=""/>
+<part name="J3" library="sd-mmc" deviceset="SDCARD" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -19976,6 +19977,7 @@ NTSC 3k3+10+0</text>
 <instance part="+3V2" gate="G$1" x="355.6" y="149.86" smashed="yes">
 <attribute name="VALUE" x="358.14" y="152.4" size="1.778" layer="96" rot="R180"/>
 </instance>
+<instance part="J3" gate="G$1" x="472.44" y="180.34"/>
 </instances>
 <busses>
 <bus name="A,A[0..15],RA14,RA15,RA16,AVR_INT,AVR_NOINT,AVR_PROM,AVR_RST,AVR_TRDOS,AVR_WAIT,AY_BC,AY_BDIR,AY_CLK,B,BB,BG,BR,BUSRQ,C,CLK,CLK_CPU,D[0..7],G,INT,IOREQ,KCLK,KDAT,M1,MISO,MOSI,MREQ,NMI,R,RAM_A[14..16],RAM_CS,RD,ROM_A[14..15],ROM_CS,RST_CPU,SCK,SDC,SOUND_L,SOUND_R,SPEAKER,SYNC,TAPE_IN,TCK,TDI,TDO,TMS,VA[0..14],VAGEN,VD[0..7],VRAM,VRD,VWR,WAIT_CPU,WR">
@@ -22360,7 +22362,7 @@ NTSC 3k3+10+0</text>
 <net name="N$7" class="0">
 <segment>
 <pinref part="R4Y" gate="G$1" pin="2"/>
-<pinref part="C2Y" gate="G$1" pin="1"/>
+<pinref part="C2Y" gate="G$1" pin="+"/>
 <pinref part="R3Y" gate="G$1" pin="2"/>
 <pinref part="R7Y" gate="G$1" pin="1"/>
 <wire x1="259.08" y1="111.76" x2="261.62" y2="111.76" width="0.1524" layer="91"/>
@@ -22373,7 +22375,7 @@ NTSC 3k3+10+0</text>
 </net>
 <net name="SOUND_L" class="0">
 <segment>
-<pinref part="C2Y" gate="G$1" pin="2"/>
+<pinref part="C2Y" gate="G$1" pin="-"/>
 <wire x1="269.24" y1="111.76" x2="271.78" y2="111.76" width="0.1524" layer="91"/>
 <label x="304.8" y="111.76" size="1.778" layer="95" rot="R180"/>
 <pinref part="*R1" gate="G$1" pin="1"/>
@@ -22393,7 +22395,7 @@ NTSC 3k3+10+0</text>
 </net>
 <net name="SOUND_R" class="0">
 <segment>
-<pinref part="C1Y" gate="G$1" pin="2"/>
+<pinref part="C1Y" gate="G$1" pin="-"/>
 <wire x1="271.78" y1="134.62" x2="307.34" y2="134.62" width="0.1524" layer="91"/>
 <label x="292.1" y="134.62" size="1.778" layer="95"/>
 </segment>
@@ -22408,7 +22410,7 @@ NTSC 3k3+10+0</text>
 <pinref part="R2Y" gate="G$1" pin="2"/>
 <pinref part="R6Y" gate="G$1" pin="1"/>
 <pinref part="R1Y" gate="G$1" pin="2"/>
-<pinref part="C1Y" gate="G$1" pin="1"/>
+<pinref part="C1Y" gate="G$1" pin="+"/>
 <wire x1="264.16" y1="134.62" x2="259.08" y2="134.62" width="0.1524" layer="91"/>
 <pinref part="R5Y" gate="G$1" pin="1"/>
 <junction x="259.08" y="134.62"/>
