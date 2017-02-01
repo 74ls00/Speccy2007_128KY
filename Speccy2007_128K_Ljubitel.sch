@@ -19377,10 +19377,10 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="P+8" library="supply1" deviceset="+5V" device=""/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
-<part name="R24" library="rcl" deviceset="R-EU_" device="R0805" value="2k2"/>
+<part name="R24" library="rcl" deviceset="R-EU_" device="R1206" value="2k2"/>
 <part name="R19" library="rcl" deviceset="R-EU_" device="R1206" value="10k"/>
 <part name="R20" library="rcl" deviceset="R-EU_" device="R0805" value="10k"/>
-<part name="R21" library="rcl" deviceset="R-EU_" device="R0805" value="10k"/>
+<part name="R21" library="rcl" deviceset="R-EU_" device="0207/10" value="10k"/>
 <part name="R22" library="rcl" deviceset="R-EU_" device="R0805" value="4k7"/>
 <part name="R23" library="rcl" deviceset="R-EU_" device="R0805" value="4k7"/>
 <part name="R1Y" library="rcl" deviceset="R-EU_" device="R0805" value="1k"/>
