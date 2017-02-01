@@ -19489,6 +19489,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <part name="C9" library="rcl" deviceset="CPOL-EU" device="E2.5-5" value="220mf"/>
 <part name="GND24" library="supply1" deviceset="GND" device=""/>
 <part name="P+4" library="supply1" deviceset="+5V" device=""/>
+<part name="CY" library="rcl" deviceset="C-EU" device="C0805" value="100n"/>
 </parts>
 <sheets>
 <sheet>
@@ -19847,6 +19848,7 @@ NTSC 3k3+10+0</text>
 <instance part="P+4" gate="1" x="314.96" y="203.2" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="312.42" y="205.74" size="1.778" layer="96" rot="MR180"/>
 </instance>
+<instance part="CY" gate="G$1" x="60.96" y="233.68"/>
 </instances>
 <busses>
 <bus name="A,A[0..15],RA14,RA15,RA16,AVR_INT,AVR_NOINT,AVR_PROM,AVR_RST,AVR_TRDOS,AVR_WAIT,AY_BC,AY_BDIR,AY_CLK,B,BB,BG,BR,BUSRQ,C,CLK,CLK_CPU,D[0..7],G,INT,IOREQ,KCLK,KDAT,M1,MISO,MOSI,MREQ,NMI,R,RAM_A[14..16],RAM_CS,RD,ROM_A[14..15],ROM_CS,RST_CPU,SCK,SDC,SOUND_L,SOUND_R,SPEAKER,SYNC,TAPE_IN,TCK,TDI,TDO,TMS,VA[0..14],VAGEN,VD[0..7],VRAM,VRD,VWR,WAIT_CPU,WR">
@@ -20591,6 +20593,9 @@ NTSC 3k3+10+0</text>
 <pinref part="C2HC" gate="G$1" pin="2"/>
 <wire x1="50.8" y1="226.06" x2="50.8" y2="228.6" width="0.1524" layer="91"/>
 <junction x="40.64" y="226.06"/>
+<wire x1="50.8" y1="226.06" x2="60.96" y2="226.06" width="0.1524" layer="91"/>
+<pinref part="CY" gate="G$1" pin="2"/>
+<wire x1="60.96" y1="226.06" x2="60.96" y2="228.6" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="VSS2"/>
@@ -20892,6 +20897,9 @@ NTSC 3k3+10+0</text>
 <wire x1="50.8" y1="238.76" x2="50.8" y2="236.22" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="238.76" x2="40.64" y2="238.76" width="0.1524" layer="91"/>
 <junction x="40.64" y="238.76"/>
+<pinref part="CY" gate="G$1" pin="1"/>
+<wire x1="60.96" y1="236.22" x2="60.96" y2="238.76" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="238.76" x2="50.8" y2="238.76" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="A0" class="0">
