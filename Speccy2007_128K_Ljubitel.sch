@@ -19775,7 +19775,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="DD4" library="74xx-eu" deviceset="74*245" device="N" technology="HCT" value="74HCT245N"/>
 <part name="DD5" library="Speccy" deviceset="74*245" device="N" technology="HCT" value="74HCT245N"/>
-<part name="DD10" library="74xx-eu" deviceset="74*245" device="N" technology="HCT" value="74HCT245N"/>
+<part name="DD10" library="Speccy" deviceset="74*245" device="N" technology="HCT" value="74HCT245N"/>
 <part name="P+6" library="supply1" deviceset="+5V" device=""/>
 <part name="DD8" library="w29c020" deviceset="W29C020" device="C"/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
@@ -19950,7 +19950,6 @@ NTSC 3k3+10+0</text>
 <instance part="P+5" gate="1" x="193.04" y="101.6" rot="R270"/>
 <instance part="GND4" gate="1" x="190.5" y="88.9"/>
 <instance part="DD4" gate="A" x="220.98" y="190.5"/>
-<instance part="DD10" gate="A" x="220.98" y="114.3"/>
 <instance part="P+6" gate="1" x="198.12" y="172.72" rot="R90"/>
 <instance part="DD8" gate="G$1" x="172.72" y="48.26"/>
 <instance part="DD4" gate="P" x="93.98" y="68.58"/>
@@ -20297,6 +20296,7 @@ NTSC 3k3+10+0</text>
 </instance>
 <instance part="J3" gate="G$1" x="472.44" y="180.34"/>
 <instance part="DD5" gate="A" x="220.98" y="152.4"/>
+<instance part="DD10" gate="A" x="220.98" y="114.3"/>
 </instances>
 <busses>
 <bus name="A,A[0..15],RA14,RA15,RA16,AVR_INT,AVR_NOINT,AVR_PROM,AVR_RST,AVR_TRDOS,AVR_WAIT,AY_BC,AY_BDIR,AY_CLK,B,BB,BG,BR,BUSRQ,C,CLK,CLK_CPU,D[0..7],G,INT,IOREQ,KCLK,KDAT,M1,MISO,MOSI,MREQ,NMI,R,RAM_A[14..16],RAM_CS,RD,ROM_A[14..15],ROM_CS,RST_CPU,SCK,SDC,SOUND_L,SOUND_R,SPEAKER,SYNC,TAPE_IN,TCK,TDI,TDO,TMS,VA[0..14],VAGEN,VD[0..7],VRAM,VRD,VWR,WAIT_CPU,WR">
@@ -20353,9 +20353,9 @@ NTSC 3k3+10+0</text>
 <label x="299.72" y="193.04" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="DD10" gate="A" pin="A7"/>
-<wire x1="208.28" y1="111.76" x2="195.58" y2="111.76" width="0.1524" layer="91"/>
-<label x="198.12" y="111.76" size="1.778" layer="95"/>
+<wire x1="208.28" y1="116.84" x2="195.58" y2="116.84" width="0.1524" layer="91"/>
+<label x="198.12" y="116.84" size="1.778" layer="95"/>
+<pinref part="DD10" gate="A" pin="A5"/>
 </segment>
 <segment>
 <wire x1="187.96" y1="198.12" x2="195.58" y2="198.12" width="0.1524" layer="91"/>
@@ -20390,9 +20390,9 @@ NTSC 3k3+10+0</text>
 <label x="299.72" y="198.12" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="DD10" gate="A" pin="A6"/>
-<wire x1="208.28" y1="114.3" x2="195.58" y2="114.3" width="0.1524" layer="91"/>
-<label x="198.12" y="114.3" size="1.778" layer="95"/>
+<wire x1="208.28" y1="119.38" x2="195.58" y2="119.38" width="0.1524" layer="91"/>
+<label x="198.12" y="119.38" size="1.778" layer="95"/>
+<pinref part="DD10" gate="A" pin="A4"/>
 </segment>
 <segment>
 <wire x1="187.96" y1="193.04" x2="195.58" y2="193.04" width="0.1524" layer="91"/>
@@ -20427,9 +20427,9 @@ NTSC 3k3+10+0</text>
 <label x="299.72" y="187.96" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="DD10" gate="A" pin="A8"/>
-<wire x1="208.28" y1="109.22" x2="195.58" y2="109.22" width="0.1524" layer="91"/>
-<label x="198.12" y="109.22" size="1.778" layer="95"/>
+<wire x1="208.28" y1="114.3" x2="195.58" y2="114.3" width="0.1524" layer="91"/>
+<label x="198.12" y="114.3" size="1.778" layer="95"/>
+<pinref part="DD10" gate="A" pin="A6"/>
 </segment>
 <segment>
 <wire x1="187.96" y1="195.58" x2="195.58" y2="195.58" width="0.1524" layer="91"/>
@@ -20464,9 +20464,9 @@ NTSC 3k3+10+0</text>
 <label x="299.72" y="182.88" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="DD10" gate="A" pin="A1"/>
-<wire x1="208.28" y1="127" x2="195.58" y2="127" width="0.1524" layer="91"/>
-<label x="198.12" y="127" size="1.778" layer="95"/>
+<label x="198.12" y="149.86" size="1.778" layer="95"/>
+<wire x1="208.28" y1="149.86" x2="195.58" y2="149.86" width="0.1524" layer="91"/>
+<pinref part="DD5" gate="A" pin="A7"/>
 </segment>
 <segment>
 <wire x1="187.96" y1="185.42" x2="195.58" y2="185.42" width="0.1524" layer="91"/>
@@ -20506,9 +20506,9 @@ NTSC 3k3+10+0</text>
 <label x="299.72" y="177.8" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="DD10" gate="A" pin="A2"/>
-<wire x1="208.28" y1="124.46" x2="195.58" y2="124.46" width="0.1524" layer="91"/>
-<label x="198.12" y="124.46" size="1.778" layer="95"/>
+<label x="198.12" y="147.32" size="1.778" layer="95"/>
+<wire x1="208.28" y1="147.32" x2="195.58" y2="147.32" width="0.1524" layer="91"/>
+<pinref part="DD5" gate="A" pin="A8"/>
 </segment>
 </net>
 <net name="D5" class="0">
@@ -20538,9 +20538,9 @@ NTSC 3k3+10+0</text>
 <label x="299.72" y="172.72" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="DD10" gate="A" pin="A3"/>
-<wire x1="208.28" y1="121.92" x2="195.58" y2="121.92" width="0.1524" layer="91"/>
-<label x="198.12" y="121.92" size="1.778" layer="95"/>
+<wire x1="208.28" y1="127" x2="195.58" y2="127" width="0.1524" layer="91"/>
+<label x="198.12" y="127" size="1.778" layer="95"/>
+<pinref part="DD10" gate="A" pin="A1"/>
 </segment>
 <segment>
 <wire x1="187.96" y1="203.2" x2="195.58" y2="203.2" width="0.1524" layer="91"/>
@@ -20575,9 +20575,9 @@ NTSC 3k3+10+0</text>
 <label x="299.72" y="167.64" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="DD10" gate="A" pin="A4"/>
-<wire x1="208.28" y1="119.38" x2="195.58" y2="119.38" width="0.1524" layer="91"/>
-<label x="198.12" y="119.38" size="1.778" layer="95"/>
+<wire x1="208.28" y1="121.92" x2="195.58" y2="124.46" width="0.1524" layer="91"/>
+<label x="198.12" y="124.46" size="1.778" layer="95"/>
+<pinref part="DD10" gate="A" pin="A3"/>
 </segment>
 <segment>
 <wire x1="187.96" y1="190.5" x2="195.58" y2="190.5" width="0.1524" layer="91"/>
@@ -20612,9 +20612,9 @@ NTSC 3k3+10+0</text>
 <label x="299.72" y="162.56" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="DD10" gate="A" pin="A5"/>
-<wire x1="208.28" y1="116.84" x2="195.58" y2="116.84" width="0.1524" layer="91"/>
-<label x="198.12" y="116.84" size="1.778" layer="95"/>
+<wire x1="208.28" y1="124.46" x2="195.58" y2="121.92" width="0.1524" layer="91"/>
+<label x="198.12" y="121.92" size="1.778" layer="95"/>
+<pinref part="DD10" gate="A" pin="A2"/>
 </segment>
 <segment>
 <wire x1="187.96" y1="200.66" x2="195.58" y2="200.66" width="0.1524" layer="91"/>
@@ -21195,11 +21195,11 @@ NTSC 3k3+10+0</text>
 <junction x="205.74" y="172.72"/>
 <wire x1="205.74" y1="172.72" x2="205.74" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="205.74" y1="142.24" x2="208.28" y2="142.24" width="0.1524" layer="91"/>
-<pinref part="DD10" gate="A" pin="DIR"/>
 <wire x1="208.28" y1="104.14" x2="205.74" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="205.74" y1="104.14" x2="205.74" y2="142.24" width="0.1524" layer="91"/>
 <junction x="205.74" y="142.24"/>
 <pinref part="DD5" gate="A" pin="DIR"/>
+<pinref part="DD10" gate="A" pin="DIR"/>
 </segment>
 <segment>
 <pinref part="DD8" gate="G$1" pin="VCC"/>
@@ -21377,9 +21377,9 @@ NTSC 3k3+10+0</text>
 <label x="147.32" y="78.74" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="208.28" y1="149.86" x2="195.58" y2="149.86" width="0.1524" layer="91"/>
-<label x="198.12" y="149.86" size="1.778" layer="95"/>
-<pinref part="DD5" gate="A" pin="A7"/>
+<wire x1="208.28" y1="152.4" x2="195.58" y2="152.4" width="0.1524" layer="91"/>
+<label x="198.12" y="152.4" size="1.778" layer="95"/>
+<pinref part="DD5" gate="A" pin="A6"/>
 </segment>
 </net>
 <net name="A1" class="0">
@@ -21394,9 +21394,9 @@ NTSC 3k3+10+0</text>
 <label x="147.32" y="76.2" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="208.28" y1="152.4" x2="195.58" y2="152.4" width="0.1524" layer="91"/>
-<label x="198.12" y="152.4" size="1.778" layer="95"/>
-<pinref part="DD5" gate="A" pin="A6"/>
+<wire x1="208.28" y1="154.94" x2="195.58" y2="154.94" width="0.1524" layer="91"/>
+<label x="198.12" y="154.94" size="1.778" layer="95"/>
+<pinref part="DD5" gate="A" pin="A5"/>
 </segment>
 <segment>
 <wire x1="162.56" y1="187.96" x2="144.78" y2="187.96" width="0.1524" layer="91"/>
@@ -21416,9 +21416,9 @@ NTSC 3k3+10+0</text>
 <label x="147.32" y="73.66" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="208.28" y1="154.94" x2="195.58" y2="154.94" width="0.1524" layer="91"/>
-<label x="198.12" y="154.94" size="1.778" layer="95"/>
-<pinref part="DD5" gate="A" pin="A5"/>
+<wire x1="208.28" y1="157.48" x2="195.58" y2="157.48" width="0.1524" layer="91"/>
+<label x="198.12" y="157.48" size="1.778" layer="95"/>
+<pinref part="DD5" gate="A" pin="A4"/>
 </segment>
 <segment>
 <wire x1="162.56" y1="185.42" x2="144.78" y2="185.42" width="0.1524" layer="91"/>
@@ -21438,9 +21438,9 @@ NTSC 3k3+10+0</text>
 <label x="147.32" y="71.12" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="208.28" y1="157.48" x2="195.58" y2="157.48" width="0.1524" layer="91"/>
-<label x="198.12" y="157.48" size="1.778" layer="95"/>
-<pinref part="DD5" gate="A" pin="A4"/>
+<wire x1="208.28" y1="160.02" x2="195.58" y2="160.02" width="0.1524" layer="91"/>
+<label x="198.12" y="160.02" size="1.778" layer="95"/>
+<pinref part="DD5" gate="A" pin="A3"/>
 </segment>
 <segment>
 <wire x1="162.56" y1="167.64" x2="144.78" y2="167.64" width="0.1524" layer="91"/>
@@ -21460,9 +21460,9 @@ NTSC 3k3+10+0</text>
 <label x="147.32" y="68.58" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="208.28" y1="160.02" x2="195.58" y2="160.02" width="0.1524" layer="91"/>
-<label x="198.12" y="160.02" size="1.778" layer="95"/>
-<pinref part="DD5" gate="A" pin="A3"/>
+<wire x1="208.28" y1="162.56" x2="195.58" y2="162.56" width="0.1524" layer="91"/>
+<label x="198.12" y="162.56" size="1.778" layer="95"/>
+<pinref part="DD5" gate="A" pin="A2"/>
 </segment>
 <segment>
 <wire x1="162.56" y1="172.72" x2="144.78" y2="172.72" width="0.1524" layer="91"/>
@@ -21509,9 +21509,9 @@ NTSC 3k3+10+0</text>
 <pinref part="DD3" gate="G$1" pin="A15"/>
 </segment>
 <segment>
-<wire x1="208.28" y1="162.56" x2="195.58" y2="162.56" width="0.1524" layer="91"/>
-<label x="198.12" y="162.56" size="1.778" layer="95"/>
-<pinref part="DD5" gate="A" pin="A2"/>
+<label x="198.12" y="203.2" size="1.778" layer="95"/>
+<wire x1="208.28" y1="203.2" x2="195.58" y2="203.2" width="0.1524" layer="91"/>
+<pinref part="DD4" gate="A" pin="A1"/>
 </segment>
 </net>
 <net name="A7" class="0">
@@ -21804,9 +21804,9 @@ NTSC 3k3+10+0</text>
 <pinref part="DD5" gate="A" pin="G"/>
 </segment>
 <segment>
-<pinref part="DD10" gate="A" pin="G"/>
 <wire x1="208.28" y1="101.6" x2="195.58" y2="101.6" width="0.1524" layer="91"/>
 <label x="198.12" y="101.6" size="1.778" layer="95"/>
+<pinref part="DD10" gate="A" pin="G"/>
 </segment>
 </net>
 <net name="AVR_INT" class="0">
@@ -21982,9 +21982,9 @@ NTSC 3k3+10+0</text>
 <label x="147.32" y="106.68" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="233.68" y1="162.56" x2="243.84" y2="162.56" width="0.1524" layer="91"/>
-<label x="236.22" y="162.56" size="1.778" layer="95"/>
-<pinref part="DD5" gate="A" pin="B2"/>
+<label x="236.22" y="203.2" size="1.778" layer="95"/>
+<wire x1="233.68" y1="203.2" x2="243.84" y2="203.2" width="0.1524" layer="91"/>
+<pinref part="DD4" gate="A" pin="B1"/>
 </segment>
 </net>
 <net name="ROM_A15" class="0">
@@ -22213,9 +22213,9 @@ NTSC 3k3+10+0</text>
 <label x="129.54" y="185.42" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="233.68" y1="160.02" x2="243.84" y2="160.02" width="0.1524" layer="91"/>
-<label x="236.22" y="160.02" size="1.778" layer="95"/>
-<pinref part="DD5" gate="A" pin="B3"/>
+<wire x1="233.68" y1="162.56" x2="243.84" y2="162.56" width="0.1524" layer="91"/>
+<label x="236.22" y="162.56" size="1.778" layer="95"/>
+<pinref part="DD5" gate="A" pin="B2"/>
 </segment>
 <segment>
 <pinref part="DD6" gate="G$1" pin="A7"/>
@@ -22247,9 +22247,9 @@ NTSC 3k3+10+0</text>
 <label x="129.54" y="180.34" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="233.68" y1="157.48" x2="243.84" y2="157.48" width="0.1524" layer="91"/>
-<label x="236.22" y="157.48" size="1.778" layer="95"/>
-<pinref part="DD5" gate="A" pin="B4"/>
+<wire x1="233.68" y1="160.02" x2="243.84" y2="160.02" width="0.1524" layer="91"/>
+<label x="236.22" y="160.02" size="1.778" layer="95"/>
+<pinref part="DD5" gate="A" pin="B3"/>
 </segment>
 <segment>
 <pinref part="DD6" gate="G$1" pin="A6"/>
@@ -22286,9 +22286,9 @@ NTSC 3k3+10+0</text>
 <label x="147.32" y="124.46" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="233.68" y1="154.94" x2="243.84" y2="154.94" width="0.1524" layer="91"/>
-<label x="236.22" y="154.94" size="1.778" layer="95"/>
-<pinref part="DD5" gate="A" pin="B5"/>
+<wire x1="233.68" y1="157.48" x2="243.84" y2="157.48" width="0.1524" layer="91"/>
+<label x="236.22" y="157.48" size="1.778" layer="95"/>
+<pinref part="DD5" gate="A" pin="B4"/>
 </segment>
 </net>
 <net name="VA10" class="0">
@@ -22320,9 +22320,9 @@ NTSC 3k3+10+0</text>
 <label x="147.32" y="127" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="233.68" y1="152.4" x2="243.84" y2="152.4" width="0.1524" layer="91"/>
-<label x="236.22" y="152.4" size="1.778" layer="95"/>
-<pinref part="DD5" gate="A" pin="B6"/>
+<wire x1="233.68" y1="154.94" x2="243.84" y2="154.94" width="0.1524" layer="91"/>
+<label x="236.22" y="154.94" size="1.778" layer="95"/>
+<pinref part="DD5" gate="A" pin="B5"/>
 </segment>
 </net>
 <net name="VRD" class="0">
@@ -22366,9 +22366,9 @@ NTSC 3k3+10+0</text>
 <label x="147.32" y="111.76" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="233.68" y1="149.86" x2="243.84" y2="149.86" width="0.1524" layer="91"/>
-<label x="236.22" y="149.86" size="1.778" layer="95"/>
-<pinref part="DD5" gate="A" pin="B7"/>
+<wire x1="233.68" y1="152.4" x2="243.84" y2="152.4" width="0.1524" layer="91"/>
+<label x="236.22" y="152.4" size="1.778" layer="95"/>
+<pinref part="DD5" gate="A" pin="B6"/>
 </segment>
 </net>
 <net name="VA12" class="0">
@@ -22429,9 +22429,9 @@ NTSC 3k3+10+0</text>
 <label x="190.5" y="119.38" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="DD10" gate="A" pin="B1"/>
-<wire x1="233.68" y1="127" x2="243.84" y2="127" width="0.1524" layer="91"/>
-<label x="236.22" y="127" size="1.778" layer="95"/>
+<label x="236.22" y="149.86" size="1.778" layer="95"/>
+<wire x1="233.68" y1="149.86" x2="243.84" y2="149.86" width="0.1524" layer="91"/>
+<pinref part="DD5" gate="A" pin="B7"/>
 </segment>
 </net>
 <net name="TCK" class="0">
@@ -22458,9 +22458,9 @@ NTSC 3k3+10+0</text>
 <label x="190.5" y="121.92" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="DD10" gate="A" pin="B2"/>
-<wire x1="233.68" y1="124.46" x2="243.84" y2="124.46" width="0.1524" layer="91"/>
-<label x="236.22" y="124.46" size="1.778" layer="95"/>
+<label x="236.22" y="147.32" size="1.778" layer="95"/>
+<wire x1="233.68" y1="147.32" x2="243.84" y2="147.32" width="0.1524" layer="91"/>
+<pinref part="DD5" gate="A" pin="B8"/>
 </segment>
 </net>
 <net name="VD5" class="0">
@@ -22475,9 +22475,9 @@ NTSC 3k3+10+0</text>
 <label x="190.5" y="137.16" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="DD10" gate="A" pin="B3"/>
-<wire x1="233.68" y1="121.92" x2="243.84" y2="121.92" width="0.1524" layer="91"/>
-<label x="236.22" y="121.92" size="1.778" layer="95"/>
+<wire x1="233.68" y1="127" x2="243.84" y2="127" width="0.1524" layer="91"/>
+<label x="236.22" y="127" size="1.778" layer="95"/>
+<pinref part="DD10" gate="A" pin="B1"/>
 </segment>
 </net>
 <net name="VD6" class="0">
@@ -22492,9 +22492,9 @@ NTSC 3k3+10+0</text>
 <label x="190.5" y="124.46" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="DD10" gate="A" pin="B4"/>
-<wire x1="233.68" y1="119.38" x2="243.84" y2="119.38" width="0.1524" layer="91"/>
-<label x="236.22" y="119.38" size="1.778" layer="95"/>
+<wire x1="233.68" y1="121.92" x2="243.84" y2="124.46" width="0.1524" layer="91"/>
+<label x="236.22" y="124.46" size="1.778" layer="95"/>
+<pinref part="DD10" gate="A" pin="B3"/>
 </segment>
 </net>
 <net name="VD7" class="0">
@@ -22509,9 +22509,9 @@ NTSC 3k3+10+0</text>
 <label x="190.5" y="134.62" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="DD10" gate="A" pin="B5"/>
-<wire x1="233.68" y1="116.84" x2="243.84" y2="116.84" width="0.1524" layer="91"/>
-<label x="236.22" y="116.84" size="1.778" layer="95"/>
+<wire x1="233.68" y1="124.46" x2="243.84" y2="121.92" width="0.1524" layer="91"/>
+<label x="236.22" y="121.92" size="1.778" layer="95"/>
+<pinref part="DD10" gate="A" pin="B2"/>
 </segment>
 </net>
 <net name="VD0" class="0">
@@ -22526,9 +22526,9 @@ NTSC 3k3+10+0</text>
 <label x="190.5" y="127" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="DD10" gate="A" pin="B6"/>
-<wire x1="233.68" y1="114.3" x2="243.84" y2="114.3" width="0.1524" layer="91"/>
-<label x="236.22" y="114.3" size="1.778" layer="95"/>
+<wire x1="233.68" y1="119.38" x2="243.84" y2="119.38" width="0.1524" layer="91"/>
+<label x="236.22" y="119.38" size="1.778" layer="95"/>
+<pinref part="DD10" gate="A" pin="B4"/>
 </segment>
 </net>
 <net name="VD1" class="0">
@@ -22543,9 +22543,9 @@ NTSC 3k3+10+0</text>
 <label x="190.5" y="132.08" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="DD10" gate="A" pin="B7"/>
-<wire x1="233.68" y1="111.76" x2="243.84" y2="111.76" width="0.1524" layer="91"/>
-<label x="236.22" y="111.76" size="1.778" layer="95"/>
+<wire x1="233.68" y1="116.84" x2="243.84" y2="116.84" width="0.1524" layer="91"/>
+<label x="236.22" y="116.84" size="1.778" layer="95"/>
+<pinref part="DD10" gate="A" pin="B5"/>
 </segment>
 </net>
 <net name="VD2" class="0">
@@ -22560,9 +22560,9 @@ NTSC 3k3+10+0</text>
 <label x="190.5" y="129.54" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="DD10" gate="A" pin="B8"/>
-<wire x1="233.68" y1="109.22" x2="243.84" y2="109.22" width="0.1524" layer="91"/>
-<label x="236.22" y="109.22" size="1.778" layer="95"/>
+<wire x1="233.68" y1="114.3" x2="243.84" y2="114.3" width="0.1524" layer="91"/>
+<label x="236.22" y="114.3" size="1.778" layer="95"/>
+<pinref part="DD10" gate="A" pin="B6"/>
 </segment>
 </net>
 <net name="TDO" class="0">
