@@ -20,69 +20,22 @@ UsedLibrary="G:/Programs/ProgramsT/EAGLE/EAGLE-6.3.0/lbr/eagle/transistor-npn.lb
 UsedLibrary="G:/Programs/ProgramsT/EAGLE/EAGLE-6.3.0/lbr/eagle/transistor.lbr"
 UsedLibrary="G:/home/Documents/Projects/EAGLE/my_lbr/altera_pga84.lbr"
 UsedLibrary="G:/home/Documents/Projects/EAGLE/my_lbr/sd-mmc.lbr"
-UsedLibrary="lbr/Speccy.lbr"
 
 [Win_1]
-Type="Library Editor"
-Loc="332 293 931 692"
-State=2
-Number=4
-File="lbr/Speccy.lbr"
-View="6.69764 -3.18019 25.2119 12.9738"
-WireWidths=" 0 0.254 0.3048 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0.4064"
-PadDiameters=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
-PadDrills=" 0.5 0.6 0.7 0.9 1 1.1 1.2 1.3 1.4 1.5 1.6 2 2.2 2.8 3.2 0.8"
-ViaDiameters=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
-ViaDrills=" 0.5 0.7 0.8 0.9 1 1.1 1.2 1.3 1.4 1.5 1.6 2 2.2 2.8 3.2 0.6"
-HoleDrills=" 0.5 0.7 0.8 0.9 1 1.1 1.2 1.3 1.4 1.5 1.6 2 2.2 2.8 3.2 0.6"
-TextSizes=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.9304 2.1844 2.54 3.81 5.08 6.4516 1.778"
-PolygonSpacings=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 5.08 6.4516 1.27"
-PolygonIsolates=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
-MiterRadiuss=" 0.254 0.3175 0.635 1.27 2.54 1 2 2.5 5 7.5 10 0"
-SmdSizes=" 0.3048 0.1524 0.4064 0.2032 0.6096 0.3048 0.8128 0.4064 1.016 0.508 1.27 0.6604 1.4224 0.7112 1.6764 0.8128 1.778 0.9144 1.9304 0.9652 2.1844 1.0668 2.54 1.27 3.81 1.9304 5.08 2.54 6.4516 3.2512 1.27 0.635"
-WireBend=0
-WireBendSet=0
-WireCap=1
-MiterStyle=0
-PadShape=0
-ViaShape=0
-PolygonPour=0
-PolygonRank=0
-PolygonThermals=1
-PolygonOrphans=0
-TextRatio=8
-PinDirection=3
-PinFunction=0
-PinLength=2
-PinVisible=3
-SwapLevel=0
-ArcDirection=0
-AddLevel=2
-PadsSameType=0
-Layer=94
-Device="74*245"
-
-[Win_2]
-Type="Control Panel"
-Loc="295 80 1209 560"
-State=2
-Number=0
-
-[Win_3]
 Type="CAM Processor"
 Loc="166 194 943 629"
-State=2
+State=0
 Number=3
 File="Speccy2007_128K_Ljubitel.brd"
 Job="G:/home/Documents/EAGLE/Speccy2007_128K_Ljubitel/ExportGerber.cam"
 
-[Win_4]
+[Win_2]
 Type="Schematic Editor"
 Loc="332 293 931 692"
 State=1
 Number=1
 File="Speccy2007_128K_Ljubitel.sch"
-View="207.162 102.249 268.108 136.244"
+View="258.837 44.4599 385.213 114.953"
 WireWidths=" 0 0.3048 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0.4064 0.1524"
 PadDiameters=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
 PadDrills=" 0.5 0.6 0.7 0.9 1 1.1 1.2 1.3 1.4 1.5 1.6 2 2.2 2.8 3.2 0.8"
@@ -114,17 +67,23 @@ ArcDirection=0
 AddLevel=2
 PadsSameType=0
 Layer=91
-Views=" 1: 207.162 102.249 268.108 136.244"
+Views=" 1: 258.837 44.4599 385.213 114.953"
 Sheet=1
 
-[Win_5]
+[Win_3]
+Type="Control Panel"
+Loc="348 301 947 700"
+State=2
+Number=0
+
+[Win_4]
 Type="Board Editor"
-Loc="332 293 931 692"
+Loc="449 0 1048 399"
 State=1
 Number=2
 File="Speccy2007_128K_Ljubitel.brd"
-View="87.6025 85.2216 285.421 150.391"
-WireWidths=" 0 0.254 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0.6096 0.8128 1.016 0.4064 0.3048"
+View="139.968 213.19 195.175 231.378"
+WireWidths=" 0 0.254 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0.6096 0.8128 1.016 0.3048 0.4064"
 PadDiameters=" 1.4224 1.6764 1.778 1.9304 2.54 3.81 6.4516 0 5 1.27 1.016 0.8128 0.4064 0.6096 0.3048 2.1844"
 PadDrills=" 0.5 0.6 0.7 0.9 1 1.1 1.2 1.3 1.4 1.5 1.6 2 2.2 2.8 3.2 0.8"
 ViaDiameters=" 1.4224 1.6764 1.778 1.9304 2.54 3.81 6.4516 0 5 1.27 1.016 0.8128 0.4064 0.6096 0.3048 2.1844"
@@ -162,4 +121,3 @@ Window="Win_1"
 Window="Win_2"
 Window="Win_3"
 Window="Win_4"
-Window="Win_5"
