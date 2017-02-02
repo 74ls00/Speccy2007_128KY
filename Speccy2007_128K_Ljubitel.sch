@@ -19404,13 +19404,13 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <part name="C3P" library="rcl" deviceset="C-EU" device="C0805" value="100n"/>
 <part name="C1P" library="rcl" deviceset="C-EU" device="C0805" value="100n"/>
 <part name="R_SY" library="resistor" deviceset="R-TRIMM" device="3296W"/>
-<part name="R9P" library="rcl" deviceset="R-EU_" device="R0805" value="75"/>
+<part name="R9P" library="rcl" deviceset="R-EU_" device="R1206" value="75"/>
 <part name="C9P" library="rcl" deviceset="CPOL-EU" device="E2.5-5" value="220mf"/>
 <part name="R5P" library="rcl" deviceset="R-EU_" device="M1206" value="16k*"/>
 <part name="C5P" library="rcl" deviceset="C-EU" device="C1206" value="100n"/>
 <part name="R6P" library="rcl" deviceset="R-EU_" device="R1206" value="47k"/>
 <part name="C6P" library="rcl" deviceset="CPOL-EU" device="E2.5-5" value="10mf"/>
-<part name="R8P" library="rcl" deviceset="R-EU_" device="M1206" value="75"/>
+<part name="R8P" library="rcl" deviceset="R-EU_" device="M0805" value="75"/>
 <part name="C8P" library="rcl" deviceset="CPOL-EU" device="E2.5-5" value="220mf"/>
 <part name="R1D" library="rcl" deviceset="R-EU_" device="R0805" value="10k"/>
 <part name="R2D" library="rcl" deviceset="R-EU_" device="M0805" value="10k"/>
