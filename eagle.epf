@@ -20,6 +20,7 @@ UsedLibrary="G:/Programs/ProgramsT/EAGLE/EAGLE-6.3.0/lbr/eagle/transistor-npn.lb
 UsedLibrary="G:/Programs/ProgramsT/EAGLE/EAGLE-6.3.0/lbr/eagle/transistor.lbr"
 UsedLibrary="G:/home/Documents/Projects/EAGLE/my_lbr/altera_pga84.lbr"
 UsedLibrary="G:/home/Documents/Projects/EAGLE/my_lbr/sd-mmc.lbr"
+UsedLibrary="lbr/Speccy.lbr"
 
 [Win_1]
 Type="CAM Processor"
@@ -35,7 +36,7 @@ Loc="332 293 931 692"
 State=1
 Number=1
 File="Speccy2007_128K_Ljubitel.sch"
-View="258.837 44.4599 385.213 114.953"
+View="142.428 108.909 324.409 210.419"
 WireWidths=" 0 0.3048 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0.4064 0.1524"
 PadDiameters=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
 PadDrills=" 0.5 0.6 0.7 0.9 1 1.1 1.2 1.3 1.4 1.5 1.6 2 2.2 2.8 3.2 0.8"
@@ -67,23 +68,17 @@ ArcDirection=0
 AddLevel=2
 PadsSameType=0
 Layer=91
-Views=" 1: 258.837 44.4599 385.213 114.953"
+Views=" 1: 142.428 108.909 324.409 210.419"
 Sheet=1
 
 [Win_3]
-Type="Control Panel"
-Loc="348 301 947 700"
-State=2
-Number=0
-
-[Win_4]
 Type="Board Editor"
-Loc="449 0 1048 399"
+Loc="5 154 813 917"
 State=1
 Number=2
 File="Speccy2007_128K_Ljubitel.brd"
-View="120.491 185.977 257.866 231.233"
-WireWidths=" 0 0.254 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0.6096 0.8128 1.016 0.3048 0.4064"
+View="13.0504 81.0861 210.869 146.256"
+WireWidths=" 0 0.254 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0.6096 0.8128 1.016 0.4064 0.3048"
 PadDiameters=" 1.4224 1.6764 1.778 1.9304 2.54 3.81 6.4516 0 5 1.27 1.016 0.8128 0.4064 0.6096 0.3048 2.1844"
 PadDrills=" 0.5 0.6 0.7 0.9 1 1.1 1.2 1.3 1.4 1.5 1.6 2 2.2 2.8 3.2 0.8"
 ViaDiameters=" 1.4224 1.6764 1.778 1.9304 2.54 3.81 6.4516 0 5 1.27 1.016 0.8128 0.4064 0.6096 0.3048 2.1844"
@@ -114,6 +109,12 @@ ArcDirection=0
 AddLevel=2
 PadsSameType=0
 Layer=16
+
+[Win_4]
+Type="Control Panel"
+Loc="332 293 931 692"
+State=2
+Number=0
 
 [Desktop]
 Screen="1280 1024"
