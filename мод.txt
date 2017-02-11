@@ -10,4 +10,5 @@ SparkFun-Connectors DIN_5_FEMALE_SUPPORT
 люб 9*15см
 
 мой 12*15
+11.5*17
 
