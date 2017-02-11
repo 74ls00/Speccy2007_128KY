@@ -21965,6 +21965,8 @@ Source: 008-0260-0_E.pdf</description>
 <part name="R2" library="rcl" deviceset="R-EU_" device="M1206"/>
 <part name="DD12" library="74xx-eu" deviceset="74*74" device="N" technology="HC"/>
 <part name="Q1" library="crystal" deviceset="CRYSTAL" device="HC49U-H"/>
+<part name="P+15" library="supply1" deviceset="+5V" device=""/>
+<part name="R3" library="rcl" deviceset="R-EU_" device="R0805" value="1k"/>
 </parts>
 <sheets>
 <sheet>
@@ -22350,8 +22352,16 @@ Source: 008-0260-0_E.pdf</description>
 </instance>
 <instance part="R1" gate="G$1" x="106.68" y="7.62"/>
 <instance part="R2" gate="G$1" x="129.54" y="226.06"/>
-<instance part="DD12" gate="A" x="190.5" y="233.68"/>
+<instance part="DD12" gate="A" x="342.9" y="25.4"/>
 <instance part="Q1" gate="G$1" x="76.2" y="2.54"/>
+<instance part="P+15" gate="1" x="320.04" y="48.26" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="317.5" y="50.8" size="1.778" layer="96" rot="MR180"/>
+</instance>
+<instance part="R3" gate="G$1" x="325.12" y="38.1" smashed="yes" rot="R90">
+<attribute name="NAME" x="323.85" y="41.6814" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="323.85" y="38.862" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="DD12" gate="B" x="342.9" y="2.54"/>
 </instances>
 <busses>
 <bus name="A,A[0..15],RA14,RA15,RA16,AVR_INT,AVR_NOINT,AVR_PROM,AVR_RST,AVR_TRDOS,AVR_WAIT,AY_BC,AY_BDIR,AY_CLK,B,BB,BG,BR,BUSRQ,C,CLK,CLK_CPU,D[0..7],G,INT,IOREQ,KCLK,KDAT,M1,MISO,MOSI,MREQ,NMI,R,RAM_A[14..16],RAM_CS,RD,ROM_A[14..15],ROM_CS,RST_CPU,SCK,SDC,SOUND_L,SOUND_R,SPEAKER,SYNC,TAPE_IN,TCK,TDI,TDO,TMS,VA[0..14],VAGEN,VD[0..7],VRAM,VRD,VWR,WAIT_CPU,WR">
@@ -23411,6 +23421,11 @@ Source: 008-0260-0_E.pdf</description>
 <wire x1="71.12" y1="238.76" x2="60.96" y2="238.76" width="0.1524" layer="91"/>
 <junction x="50.8" y="238.76"/>
 <junction x="60.96" y="238.76"/>
+</segment>
+<segment>
+<pinref part="R3" gate="G$1" pin="2"/>
+<pinref part="P+15" gate="1" pin="+5V"/>
+<wire x1="325.12" y1="43.18" x2="320.04" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="A0" class="0">
@@ -24933,6 +24948,11 @@ Source: 008-0260-0_E.pdf</description>
 <pinref part="DD11" gate=".6" pin="O"/>
 <wire x1="307.34" y1="30.48" x2="312.42" y2="30.48" width="0.1524" layer="91"/>
 <label x="307.34" y="30.48" size="1.778" layer="95"/>
+<junction x="312.42" y="30.48"/>
+<pinref part="DD12" gate="A" pin="CLK"/>
+<wire x1="330.2" y1="22.86" x2="317.5" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="317.5" y1="22.86" x2="317.5" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="317.5" y1="30.48" x2="312.42" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="DA1" gate="DA" pin="6"/>
@@ -25302,6 +25322,46 @@ Source: 008-0260-0_E.pdf</description>
 <wire x1="137.16" y1="226.06" x2="152.4" y2="226.06" width="0.1524" layer="91"/>
 <wire x1="137.16" y1="228.6" x2="137.16" y2="226.06" width="0.1524" layer="91"/>
 <junction x="137.16" y="226.06"/>
+</segment>
+</net>
+<net name="N$38" class="0">
+<segment>
+<pinref part="DD12" gate="A" pin="D"/>
+<wire x1="330.2" y1="27.94" x2="327.66" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="327.66" y1="27.94" x2="327.66" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="327.66" y1="38.1" x2="358.14" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="358.14" y1="38.1" x2="358.14" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="DD12" gate="A" pin="!Q"/>
+<wire x1="358.14" y1="20.32" x2="355.6" y2="20.32" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$40" class="0">
+<segment>
+<pinref part="DD12" gate="A" pin="CLR"/>
+<wire x1="330.2" y1="20.32" x2="325.12" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="325.12" y1="20.32" x2="325.12" y2="30.48" width="0.1524" layer="91"/>
+<pinref part="DD12" gate="A" pin="PRE"/>
+<wire x1="325.12" y1="30.48" x2="330.2" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="325.12" y1="30.48" x2="325.12" y2="33.02" width="0.1524" layer="91"/>
+<junction x="325.12" y="30.48"/>
+<pinref part="R3" gate="G$1" pin="1"/>
+<pinref part="DD12" gate="B" pin="PRE"/>
+<wire x1="330.2" y1="7.62" x2="325.12" y2="7.62" width="0.1524" layer="91"/>
+<wire x1="325.12" y1="7.62" x2="325.12" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="DD12" gate="B" pin="CLR"/>
+<wire x1="330.2" y1="-2.54" x2="325.12" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="325.12" y1="-2.54" x2="325.12" y2="7.62" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$48" class="0">
+<segment>
+<pinref part="DD12" gate="B" pin="D"/>
+<wire x1="330.2" y1="5.08" x2="327.66" y2="5.08" width="0.1524" layer="91"/>
+<wire x1="327.66" y1="5.08" x2="327.66" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="327.66" y1="12.7" x2="358.14" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="358.14" y1="12.7" x2="358.14" y2="-2.54" width="0.1524" layer="91"/>
+<pinref part="DD12" gate="B" pin="!Q"/>
+<wire x1="358.14" y1="-2.54" x2="355.6" y2="-2.54" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

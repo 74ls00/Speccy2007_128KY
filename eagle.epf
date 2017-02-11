@@ -26,64 +26,18 @@ UsedLibrary="Speccy.lbr"
 [Win_1]
 Type="CAM Processor"
 Loc="166 194 943 629"
-State=2
+State=0
 Number=3
 File="Speccy2007_128K_Ljubitel.brd"
 Job="G:/home/Documents/EAGLE/Speccy2007_128K_Ljubitel/ExportGerber.cam"
 
 [Win_2]
-Type="Library Editor"
-Loc="236 318 835 717"
-State=2
-Number=4
-File="Speccy.lbr"
-View="-6.52475 -1.30793 6.52475 3.30606"
-WireWidths=" 0 0.3048 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0.4064 0.127"
-PadDiameters=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
-PadDrills=" 0.5 0.6 0.7 0.9 1 1.1 1.2 1.3 1.4 1.5 1.6 2 2.2 2.8 3.2 0.8"
-ViaDiameters=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
-ViaDrills=" 0.5 0.7 0.8 0.9 1 1.1 1.2 1.3 1.4 1.5 1.6 2 2.2 2.8 3.2 0.6"
-HoleDrills=" 0.5 0.7 0.8 0.9 1 1.1 1.2 1.3 1.4 1.5 1.6 2 2.2 2.8 3.2 0.6"
-TextSizes=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.4224 1.6764 1.9304 2.1844 2.54 3.81 5.08 6.4516 1.778 1.27"
-PolygonSpacings=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 5.08 6.4516 1.27"
-PolygonIsolates=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
-MiterRadiuss=" 0.254 0.3175 0.635 1.27 2.54 1 2 2.5 5 7.5 10 0"
-SmdSizes=" 0.3048 0.1524 0.4064 0.2032 0.6096 0.3048 0.8128 0.4064 1.016 0.508 1.27 0.6604 1.4224 0.7112 1.6764 0.8128 1.778 0.9144 1.9304 0.9652 2.1844 1.0668 2.54 1.27 3.81 1.9304 5.08 2.54 6.4516 3.2512 1.27 0.635"
-WireBend=0
-WireBendSet=0
-WireCap=1
-MiterStyle=0
-PadShape=0
-ViaShape=0
-PolygonPour=0
-PolygonRank=0
-PolygonThermals=1
-PolygonOrphans=0
-TextRatio=8
-PinDirection=3
-PinFunction=0
-PinLength=2
-PinVisible=3
-SwapLevel=0
-ArcDirection=0
-AddLevel=2
-PadsSameType=0
-Layer=21
-Package="0207/10"
-
-[Win_3]
-Type="Control Panel"
-Loc="285 331 1233 802"
-State=2
-Number=0
-
-[Win_4]
 Type="Schematic Editor"
 Loc="332 293 931 692"
 State=1
 Number=1
 File="Speccy2007_128K_Ljubitel.sch"
-View="313.717 100.055 465.368 184.647"
+View="310.3 -9.71975 398.061 39.2343"
 WireWidths=" 0 0.3048 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0.4064 0.1524"
 PadDiameters=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
 PadDrills=" 0.5 0.6 0.7 0.9 1 1.1 1.2 1.3 1.4 1.5 1.6 2 2.2 2.8 3.2 0.8"
@@ -115,16 +69,16 @@ ArcDirection=0
 AddLevel=2
 PadsSameType=0
 Layer=91
-Views=" 1: 313.717 100.055 465.368 184.647"
+Views=" 1: 310.3 -9.71975 398.061 39.2343"
 Sheet=1
 
-[Win_5]
+[Win_3]
 Type="Board Editor"
 Loc="348 0 1156 763"
 State=1
 Number=2
 File="Speccy2007_128K_Ljubitel.brd"
-View="117.209 67.477 231.69 105.193"
+View="94.5353 44.4009 231.912 89.6596"
 WireWidths=" 0 0.254 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 1.016 0.8128 0.6096 0.3048 0.4064"
 PadDiameters=" 1.4224 1.6764 1.778 1.9304 2.54 3.81 6.4516 0 5 1.27 1.016 0.8128 0.4064 0.6096 0.3048 2.1844"
 PadDrills=" 0.5 0.6 0.7 0.9 1 1.1 1.2 1.3 1.4 1.5 1.6 2 2.2 2.8 3.2 0.8"
@@ -155,7 +109,13 @@ SwapLevel=0
 ArcDirection=0
 AddLevel=2
 PadsSameType=0
-Layer=1
+Layer=16
+
+[Win_4]
+Type="Control Panel"
+Loc="285 331 1233 802"
+State=2
+Number=0
 
 [Desktop]
 Screen="1280 1024"
@@ -163,4 +123,3 @@ Window="Win_1"
 Window="Win_2"
 Window="Win_3"
 Window="Win_4"
-Window="Win_5"
