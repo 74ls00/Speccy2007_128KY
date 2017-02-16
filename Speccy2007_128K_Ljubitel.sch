@@ -6629,79 +6629,6 @@ W = angled&lt;p&gt;
 </deviceset>
 </devicesets>
 </library>
-<library name="SparkFun-Connectors">
-<description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
-In this library you'll find connectors and sockets- basically anything that can be plugged into or onto.&lt;br&gt;&lt;br&gt;
-We've spent an enormous amount of time creating and checking these footprints and parts, but it is the end user's responsibility to ensure correctness and suitablity for a given componet or application. If you enjoy using this library, please buy one of our products at www.sparkfun.com.
-&lt;br&gt;&lt;br&gt;
-&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
-&lt;br&gt;&lt;br&gt;
-You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
-<packages>
-<package name="MINI-DIN6">
-<wire x1="-7" y1="0" x2="-7" y2="-12.4" width="0.2032" layer="21"/>
-<wire x1="7" y1="0" x2="7" y2="-12.4" width="0.2032" layer="21"/>
-<wire x1="-7" y1="0" x2="7" y2="0" width="0.2032" layer="21"/>
-<wire x1="-7" y1="-12.4" x2="7" y2="-12.4" width="0.2032" layer="21"/>
-<wire x1="-7" y1="-1" x2="7" y2="-1" width="0.2032" layer="51"/>
-<pad name="3" x="-3.4" y="-8.5" drill="0.9"/>
-<pad name="1" x="-1.3" y="-8.5" drill="0.9"/>
-<pad name="2" x="1.3" y="-8.5" drill="0.9"/>
-<pad name="4" x="3.4" y="-8.5" drill="0.9"/>
-<pad name="5" x="-3.4" y="-11" drill="0.9"/>
-<pad name="6" x="3.4" y="-11" drill="0.9"/>
-<pad name="P$1" x="0" y="-4.7" drill="2.2"/>
-<text x="-5.08" y="-5.08" size="0.4064" layer="25">&gt;NAME</text>
-<text x="-5.08" y="-6.35" size="0.4064" layer="27">&gt;VALUE</text>
-</package>
-</packages>
-<symbols>
-<symbol name="M06">
-<wire x1="1.27" y1="-7.62" x2="-5.08" y2="-7.62" width="0.4064" layer="94"/>
-<wire x1="-1.27" y1="0" x2="0" y2="0" width="0.6096" layer="94"/>
-<wire x1="-1.27" y1="-2.54" x2="0" y2="-2.54" width="0.6096" layer="94"/>
-<wire x1="-1.27" y1="-5.08" x2="0" y2="-5.08" width="0.6096" layer="94"/>
-<wire x1="-5.08" y1="10.16" x2="-5.08" y2="-7.62" width="0.4064" layer="94"/>
-<wire x1="1.27" y1="-7.62" x2="1.27" y2="10.16" width="0.4064" layer="94"/>
-<wire x1="-5.08" y1="10.16" x2="1.27" y2="10.16" width="0.4064" layer="94"/>
-<wire x1="-1.27" y1="5.08" x2="0" y2="5.08" width="0.6096" layer="94"/>
-<wire x1="-1.27" y1="2.54" x2="0" y2="2.54" width="0.6096" layer="94"/>
-<wire x1="-1.27" y1="7.62" x2="0" y2="7.62" width="0.6096" layer="94"/>
-<text x="-5.08" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
-<text x="-5.08" y="10.922" size="1.778" layer="95">&gt;NAME</text>
-<pin name="1" x="5.08" y="-5.08" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="2" x="5.08" y="-2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="3" x="5.08" y="0" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="4" x="5.08" y="2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="5" x="5.08" y="5.08" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="6" x="5.08" y="7.62" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="MINI-DIN6">
-<description>&lt;b&gt;mini DIN 6 Connector&lt;/b&gt;
-Commonly found on the back of a computer for PS2 keyboard and mice. Schematic and footprint are proven. Spark Fun Electronics SKU : PRT-08509</description>
-<gates>
-<gate name="G$1" symbol="M06" x="0" y="0"/>
-</gates>
-<devices>
-<device name="PTH" package="MINI-DIN6">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="5"/>
-<connect gate="G$1" pin="6" pad="6"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="cxa1645">
 <packages>
 <package name="DIL24-4">
@@ -11722,10 +11649,10 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <wire x1="-11.43" y1="-3.556" x2="-11.43" y2="-23.368" width="0.127" layer="21"/>
 <wire x1="-11.43" y1="-23.368" x2="12.192" y2="-23.368" width="0.127" layer="21"/>
 <wire x1="12.192" y1="-23.368" x2="12.192" y2="-3.556" width="0.127" layer="21"/>
-<smd name="M4" x="-13.208" y="11.43" dx="2.54" dy="1.27" layer="1" rot="R90"/>
+<smd name="M4" x="-13.446125" y="11.43" dx="2.54" dy="1.27" layer="1" rot="R90"/>
 <smd name="M3" x="-13.208" y="-2.54" dx="2.54" dy="1.27" layer="1" rot="R90"/>
 <smd name="M2" x="13.97" y="-2.54" dx="2.54" dy="1.27" layer="1" rot="R90"/>
-<smd name="M1" x="12.192" y="11.43" dx="2.54" dy="1.27" layer="1" rot="R90"/>
+<smd name="M1" x="12.430125" y="11.43" dx="2.54" dy="1.27" layer="1" rot="R90"/>
 <smd name="10" x="-11.938" y="13.462" dx="1.4224" dy="0.7112" layer="1" rot="R90"/>
 <smd name="11" x="-10.668" y="13.462" dx="1.4224" dy="0.7112" layer="1" rot="R90"/>
 <smd name="8" x="-9.398" y="13.462" dx="1.4224" dy="0.7112" layer="1" rot="R90"/>
@@ -11839,31 +11766,6 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <rectangle x1="-2.794" y1="1.016" x2="-2.286" y2="1.524" layer="51"/>
 <rectangle x1="-0.254" y1="1.016" x2="0.254" y2="1.524" layer="51"/>
 <rectangle x1="2.286" y1="1.016" x2="2.794" y2="1.524" layer="51"/>
-</package>
-<package name="DIL14O">
-<description>&lt;b&gt;Dual In Line Package&lt;/b&gt;</description>
-<wire x1="8.89" y1="2.921" x2="-8.89" y2="2.921" width="0.1524" layer="21"/>
-<wire x1="-8.89" y1="-2.921" x2="8.89" y2="-2.921" width="0.1524" layer="21"/>
-<wire x1="8.89" y1="2.921" x2="8.89" y2="-2.921" width="0.1524" layer="21"/>
-<wire x1="-8.89" y1="2.921" x2="-8.89" y2="1.016" width="0.1524" layer="21"/>
-<wire x1="-8.89" y1="-2.921" x2="-8.89" y2="-1.016" width="0.1524" layer="21"/>
-<wire x1="-8.89" y1="1.016" x2="-8.89" y2="-1.016" width="0.1524" layer="21" curve="-180"/>
-<pad name="1" x="-7.62" y="-3.81" drill="0.8128" diameter="2" rot="R90"/>
-<pad name="2" x="-5.08" y="-3.81" drill="0.8128" diameter="2" rot="R90"/>
-<pad name="7" x="7.62" y="-3.81" drill="0.8128" diameter="2" rot="R90"/>
-<pad name="8" x="7.62" y="3.81" drill="0.8128" diameter="2" rot="R90"/>
-<pad name="3" x="-2.54" y="-3.81" drill="0.8128" diameter="2" rot="R90"/>
-<pad name="4" x="0" y="-3.81" drill="0.8128" diameter="2" rot="R90"/>
-<pad name="6" x="5.08" y="-3.81" drill="0.8128" diameter="2" rot="R90"/>
-<pad name="5" x="2.54" y="-3.81" drill="0.8128" diameter="2" rot="R90"/>
-<pad name="9" x="5.08" y="3.81" drill="0.8128" diameter="2" rot="R90"/>
-<pad name="10" x="2.54" y="3.81" drill="0.8128" diameter="2" rot="R90"/>
-<pad name="11" x="0" y="3.81" drill="0.8128" diameter="2" rot="R90"/>
-<pad name="12" x="-2.54" y="3.81" drill="0.8128" diameter="2" rot="R90"/>
-<pad name="13" x="-5.08" y="3.81" drill="0.8128" diameter="2" rot="R90"/>
-<pad name="14" x="-7.62" y="3.81" drill="0.8128" diameter="2" rot="R90"/>
-<text x="-9.271" y="-3.048" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
-<text x="-6.731" y="-0.635" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
 <package name="POWER3.5">
 <wire x1="-2.5" y1="5" x2="2.5" y2="5" width="0.127" layer="21"/>
@@ -17533,6 +17435,47 @@ Source: 008-0260-0_E.pdf</description>
 <text x="-2.54" y="2.54" size="1.27" layer="25">&gt;NAME</text>
 <text x="-2.54" y="-3.81" size="1.27" layer="27">&gt;VALUE</text>
 </package>
+<package name="DIL14O">
+<description>&lt;b&gt;Dual In Line Package&lt;/b&gt;</description>
+<wire x1="8.89" y1="2.921" x2="-8.89" y2="2.921" width="0.1524" layer="21"/>
+<wire x1="-8.89" y1="-2.921" x2="8.89" y2="-2.921" width="0.1524" layer="21"/>
+<wire x1="8.89" y1="2.921" x2="8.89" y2="-2.921" width="0.1524" layer="21"/>
+<wire x1="-8.89" y1="2.921" x2="-8.89" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="-8.89" y1="-2.921" x2="-8.89" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="-8.89" y1="1.016" x2="-8.89" y2="-1.016" width="0.1524" layer="21" curve="-180"/>
+<pad name="1" x="-7.62" y="-3.81" drill="0.8128" diameter="2" shape="offset" rot="R180"/>
+<pad name="2" x="-5.08" y="-3.81" drill="0.8128" diameter="2" rot="R90"/>
+<pad name="7" x="7.62" y="-3.81" drill="0.8128" diameter="2" rot="R90"/>
+<pad name="8" x="7.62" y="3.81" drill="0.8128" diameter="1.8" shape="square" rot="R90"/>
+<pad name="3" x="-2.54" y="-3.81" drill="0.8128" diameter="2" rot="R90"/>
+<pad name="4" x="0" y="-3.81" drill="0.8128" diameter="2" rot="R90"/>
+<pad name="6" x="5.08" y="-3.81" drill="0.8128" diameter="2" rot="R90"/>
+<pad name="5" x="2.54" y="-3.81" drill="0.8128" diameter="2" rot="R90"/>
+<pad name="9" x="5.08" y="3.81" drill="0.8128" diameter="1.8" shape="square" rot="R90"/>
+<pad name="10" x="2.54" y="3.81" drill="0.8128" diameter="2" rot="R90"/>
+<pad name="11" x="0" y="3.81" drill="0.8128" diameter="2" rot="R90"/>
+<pad name="12" x="-2.54" y="3.81" drill="0.8128" diameter="2" rot="R90"/>
+<pad name="13" x="-5.08" y="3.81" drill="0.8128" diameter="2" rot="R90"/>
+<pad name="14" x="-7.62" y="3.81" drill="0.8128" diameter="2" rot="R90"/>
+<text x="-9.271" y="-3.048" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="-6.731" y="-0.635" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+</package>
+<package name="MINI-DIN6">
+<wire x1="-7" y1="0" x2="-7" y2="-12.4" width="0.2032" layer="21"/>
+<wire x1="7" y1="0" x2="7" y2="-12.4" width="0.2032" layer="21"/>
+<wire x1="-7" y1="0" x2="7" y2="0" width="0.2032" layer="21"/>
+<wire x1="-7" y1="-12.4" x2="7" y2="-12.4" width="0.2032" layer="21"/>
+<wire x1="-7" y1="-1" x2="7" y2="-1" width="0.2032" layer="51"/>
+<pad name="3" x="-3.4" y="-8.5" drill="0.9" diameter="1.6764" shape="square"/>
+<pad name="1" x="-1.3" y="-8.5" drill="0.9" diameter="1.6764" shape="square"/>
+<pad name="2" x="1.3" y="-8.5" drill="0.9" diameter="1.778"/>
+<pad name="4" x="3.4" y="-8.5" drill="0.9" diameter="1.6764" shape="square"/>
+<pad name="5" x="-3.4" y="-11" drill="0.9" diameter="1.6764" shape="square"/>
+<pad name="6" x="3.4" y="-11" drill="0.9" diameter="1.778"/>
+<pad name="GND" x="0" y="-4.7" drill="2.2" diameter="4.5"/>
+<text x="-5.08" y="-5.08" size="0.4064" layer="25">&gt;NAME</text>
+<text x="-5.08" y="-6.35" size="0.4064" layer="27">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="74245">
@@ -17912,6 +17855,28 @@ Source: 008-0260-0_E.pdf</description>
 <text x="1.524" y="-1.143" size="0.8636" layer="93">2</text>
 <pin name="2" x="2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="1" x="-2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1"/>
+</symbol>
+<symbol name="M06">
+<wire x1="1.27" y1="-7.62" x2="-5.08" y2="-7.62" width="0.4064" layer="94"/>
+<wire x1="-1.27" y1="0" x2="0" y2="0" width="0.6096" layer="94"/>
+<wire x1="-1.27" y1="-2.54" x2="0" y2="-2.54" width="0.6096" layer="94"/>
+<wire x1="-1.27" y1="-5.08" x2="0" y2="-5.08" width="0.6096" layer="94"/>
+<wire x1="-5.08" y1="12.7" x2="-5.08" y2="-7.62" width="0.4064" layer="94"/>
+<wire x1="1.27" y1="-7.62" x2="1.27" y2="12.7" width="0.4064" layer="94"/>
+<wire x1="-5.08" y1="12.7" x2="1.27" y2="12.7" width="0.4064" layer="94"/>
+<wire x1="-1.27" y1="5.08" x2="0" y2="5.08" width="0.6096" layer="94"/>
+<wire x1="-1.27" y1="2.54" x2="0" y2="2.54" width="0.6096" layer="94"/>
+<wire x1="-1.27" y1="7.62" x2="0" y2="7.62" width="0.6096" layer="94"/>
+<text x="-5.08" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-5.08" y="13.462" size="1.778" layer="95">&gt;NAME</text>
+<pin name="1" x="5.08" y="-5.08" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="2" x="5.08" y="-2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="3" x="5.08" y="0" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="4" x="5.08" y="2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="5" x="5.08" y="5.08" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="6" x="5.08" y="7.62" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<wire x1="-1.27" y1="10.16" x2="0" y2="10.16" width="0.6096" layer="94"/>
+<pin name="7" x="5.08" y="10.16" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -21699,6 +21664,29 @@ KINGFONT SDCMF-10915W010</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="MINI-DIN6">
+<description>&lt;b&gt;mini DIN 6 Connector&lt;/b&gt;
+Commonly found on the back of a computer for PS2 keyboard and mice. Schematic and footprint are proven. Spark Fun Electronics SKU : PRT-08509</description>
+<gates>
+<gate name="G$1" symbol="M06" x="0" y="0"/>
+</gates>
+<devices>
+<device name="PTH" package="MINI-DIN6">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="GND"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 <library name="AWJLEagleLib">
@@ -23340,7 +23328,7 @@ Source: www.kingbright.com</description>
 <part name="R9" library="rcl" deviceset="R-EU_" device="R0805" value="330"/>
 <part name="R5" library="rcl" deviceset="R-EU_" device="R0805" value="470"/>
 <part name="R8" library="rcl" deviceset="R-EU_" device="R0805" value="330"/>
-<part name="X3" library="SparkFun-Connectors" deviceset="MINI-DIN6" device="PTH" value="PS/2 KB"/>
+<part name="X3" library="Speccy" deviceset="MINI-DIN6" device="PTH" value="PS/2 KB"/>
 <part name="DD3" library="Speccy" deviceset="621024" device="P" value="621024"/>
 <part name="P+11" library="supply1" deviceset="+5V" device=""/>
 <part name="DD11" library="Speccy" deviceset="74*04" device="N" technology="LS" value="74LS04N"/>
@@ -23435,8 +23423,8 @@ Source: www.kingbright.com</description>
 <part name="X1" library="Speccy" deviceset="POWER3.5" device="" value="5V"/>
 <part name="GND28" library="supply1" deviceset="GND" device=""/>
 <part name="P+18" library="supply1" deviceset="+5V" device=""/>
-<part name="LED1" library="led" deviceset="LED" device="SML0805" value="sdcard"/>
-<part name="LED2" library="led" deviceset="LED" device="SML0805" value="power"/>
+<part name="HL2" library="led" deviceset="LED" device="SML0805" value="sdcard"/>
+<part name="HL1" library="led" deviceset="LED" device="SML0805" value="power"/>
 <part name="R25" library="rcl" deviceset="R-EU_" device="R0805" value="1k"/>
 <part name="GND27" library="supply1" deviceset="GND" device=""/>
 <part name="R26" library="rcl" deviceset="R-EU_" device="R0805" value="1k"/>
@@ -23597,7 +23585,7 @@ Source: www.kingbright.com</description>
 <instance part="R8" gate="G$1" x="210.82" y="63.5"/>
 <instance part="X3" gate="G$1" x="261.62" y="231.14" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="269.24" y="220.98" size="1.778" layer="96" rot="MR0"/>
-<attribute name="NAME" x="264.16" y="242.062" size="1.778" layer="95" rot="MR0"/>
+<attribute name="NAME" x="264.16" y="244.602" size="1.778" layer="95" rot="MR0"/>
 </instance>
 <instance part="DD3" gate="G$1" x="175.26" y="175.26"/>
 <instance part="P+11" gate="1" x="152.4" y="144.78" rot="R90"/>
@@ -23850,8 +23838,11 @@ Source: www.kingbright.com</description>
 <instance part="P+18" gate="1" x="30.48" y="233.68" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="27.94" y="236.22" size="1.778" layer="96" rot="MR180"/>
 </instance>
-<instance part="LED1" gate="G$1" x="370.84" y="198.12" rot="R90"/>
-<instance part="LED2" gate="G$1" x="403.86" y="142.24"/>
+<instance part="HL2" gate="G$1" x="370.84" y="198.12" rot="R90"/>
+<instance part="HL1" gate="G$1" x="403.86" y="142.24" smashed="yes">
+<attribute name="NAME" x="406.908" y="141.224" size="1.778" layer="95"/>
+<attribute name="VALUE" x="406.908" y="139.065" size="1.778" layer="96"/>
+</instance>
 <instance part="R25" gate="G$1" x="403.86" y="129.54" smashed="yes" rot="MR90">
 <attribute name="NAME" x="405.13" y="133.1214" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="405.13" y="130.302" size="1.778" layer="96" rot="MR180"/>
@@ -24555,6 +24546,10 @@ Source: www.kingbright.com</description>
 <wire x1="256.54" y1="231.14" x2="254" y2="231.14" width="0.1524" layer="91"/>
 <pinref part="GND15" gate="1" pin="GND"/>
 <wire x1="254" y1="231.14" x2="254" y2="223.52" width="0.1524" layer="91"/>
+<pinref part="X3" gate="G$1" pin="7"/>
+<wire x1="256.54" y1="241.3" x2="254" y2="241.3" width="0.1524" layer="91"/>
+<wire x1="254" y1="241.3" x2="254" y2="231.14" width="0.1524" layer="91"/>
+<junction x="254" y="231.14"/>
 </segment>
 <segment>
 <pinref part="X2" gate="G$1" pin="4"/>
@@ -26775,7 +26770,7 @@ Source: www.kingbright.com</description>
 <pinref part="+3V1" gate="G$1" pin="+3V3"/>
 <wire x1="335.28" y1="200.66" x2="335.28" y2="198.12" width="0.1524" layer="91"/>
 <junction x="335.28" y="198.12"/>
-<pinref part="LED1" gate="G$1" pin="A"/>
+<pinref part="HL2" gate="G$1" pin="A"/>
 <wire x1="365.76" y1="198.12" x2="368.3" y2="198.12" width="0.1524" layer="91"/>
 <junction x="365.76" y="198.12"/>
 </segment>
@@ -26796,7 +26791,7 @@ Source: www.kingbright.com</description>
 <wire x1="378.46" y1="144.78" x2="375.92" y2="144.78" width="0.1524" layer="91"/>
 <junction x="378.46" y="147.32"/>
 <wire x1="396.24" y1="147.32" x2="403.86" y2="147.32" width="0.1524" layer="91"/>
-<pinref part="LED2" gate="G$1" pin="A"/>
+<pinref part="HL1" gate="G$1" pin="A"/>
 <wire x1="403.86" y1="147.32" x2="403.86" y2="144.78" width="0.1524" layer="91"/>
 <junction x="396.24" y="147.32"/>
 </segment>
@@ -26937,14 +26932,14 @@ Source: www.kingbright.com</description>
 </net>
 <net name="N$39" class="0">
 <segment>
-<pinref part="LED2" gate="G$1" pin="C"/>
+<pinref part="HL1" gate="G$1" pin="C"/>
 <pinref part="R25" gate="G$1" pin="2"/>
 <wire x1="403.86" y1="137.16" x2="403.86" y2="134.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$41" class="0">
 <segment>
-<pinref part="LED1" gate="G$1" pin="C"/>
+<pinref part="HL2" gate="G$1" pin="C"/>
 <pinref part="R26" gate="G$1" pin="2"/>
 <wire x1="375.92" y1="198.12" x2="378.46" y2="198.12" width="0.1524" layer="91"/>
 </segment>
