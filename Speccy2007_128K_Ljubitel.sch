@@ -9997,14 +9997,14 @@ Cermet, abgedichtet nach IP67</description>
 <wire x1="-18.415" y1="-16.51" x2="-16.51" y2="-18.415" width="0.127" layer="21" curve="90"/>
 <wire x1="16.51" y1="18.415" x2="18.415" y2="16.51" width="0.127" layer="21" curve="-90"/>
 <wire x1="-18.415" y1="15.875" x2="-15.875" y2="18.415" width="0.127" layer="21"/>
-<hole x="-5.845" y="5.845" drill="3.2"/>
-<hole x="5.845" y="5.845" drill="3.2"/>
-<hole x="-5.845" y="-5.845" drill="3.2"/>
-<hole x="5.845" y="-5.845" drill="3.2"/>
-<wire x1="-7.5" y1="7.5" x2="7.5" y2="7.5" width="0.0254" layer="51"/>
-<wire x1="7.5" y1="7.5" x2="7.5" y2="-7.5" width="0.0254" layer="51"/>
-<wire x1="7.5" y1="-7.5" x2="-7.5" y2="-7.5" width="0.0254" layer="51"/>
-<wire x1="-7.5" y1="-7.5" x2="-7.5" y2="7.5" width="0.0254" layer="51"/>
+<hole x="-5.745" y="5.745" drill="3.2"/>
+<hole x="5.745" y="5.745" drill="3.2"/>
+<hole x="-5.745" y="-5.745" drill="3.2"/>
+<hole x="5.745" y="-5.745" drill="3.2"/>
+<wire x1="-7.4" y1="7.4" x2="7.4" y2="7.4" width="0.0254" layer="51"/>
+<wire x1="7.4" y1="7.4" x2="7.4" y2="-7.4" width="0.0254" layer="51"/>
+<wire x1="7.4" y1="-7.4" x2="-7.4" y2="-7.4" width="0.0254" layer="51"/>
+<wire x1="-7.4" y1="-7.4" x2="-7.4" y2="7.4" width="0.0254" layer="51"/>
 </package>
 <package name="DIL14">
 <description>&lt;b&gt;Dual In Line Package&lt;/b&gt;</description>
@@ -23696,7 +23696,7 @@ Source: www.kingbright.com</description>
 <part name="R9P1" library="rcl" deviceset="R-EU_" device="R1206" value="75"/>
 <part name="R9P2" library="rcl" deviceset="R-EU_" device="R1206" value="75"/>
 <part name="J1" library="rcl" deviceset="R-EU_" device="M1206"/>
-<part name="R2" library="rcl" deviceset="R-EU_" device="M1206"/>
+<part name="R2" library="rcl" deviceset="R-EU_" device="R1206"/>
 <part name="DD12" library="Speccy" deviceset="74*74" device="O" technology="LS" value="74LS74O"/>
 <part name="P+15" library="supply1" deviceset="+5V" device=""/>
 <part name="R3" library="rcl" deviceset="R-EU_" device="R0805" value="1k"/>
@@ -24163,11 +24163,14 @@ DD7</text>
 </instance>
 <instance part="CP2" gate="G$1" x="121.92" y="231.14"/>
 <instance part="CP1" gate="G$1" x="111.76" y="231.14"/>
-<instance part="X3P" gate="1" x="297.18" y="233.68" rot="MR0"/>
-<instance part="P+17" gate="1" x="284.48" y="241.3" smashed="yes">
-<attribute name="VALUE" x="287.02" y="243.84" size="1.778" layer="96" rot="R180"/>
+<instance part="X3P" gate="1" x="276.86" y="233.68" smashed="yes" rot="MR180">
+<attribute name="VALUE" x="275.59" y="243.84" size="1.778" layer="96" rot="MR180"/>
+<attribute name="NAME" x="280.67" y="242.062" size="1.778" layer="95" rot="MR0"/>
 </instance>
-<instance part="GND29" gate="1" x="297.18" y="246.38" rot="MR0"/>
+<instance part="P+17" gate="1" x="287.02" y="243.84" smashed="yes">
+<attribute name="VALUE" x="289.56" y="246.38" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="GND29" gate="1" x="287.02" y="226.06" rot="MR0"/>
 </instances>
 <busses>
 <bus name="A,A[0..15],RA14,RA15,RA16,AVR_INT,AVR_NOINT,AVR_PROM,AVR_RST,AVR_TRDOS,AVR_WAIT,AY_BC,AY_BDIR,AY_CLK,B,BB,BG,BR,BUSRQ,C,CLK,CLK_CPU,D[0..7],G,INT,IOREQ,KCLK,KDAT,M1,MISO,MOSI,MREQ,NMI,R,RAM_A[14..16],RAM_CS,RD,ROM_A[14..15],ROM_CS,RST_CPU,SCK,SDC,SOUND_L,SOUND_R,SPEAKER,SYNC,TAPE_IN,TCK,TDI,TDO,TMS,VA[0..14],VAGEN,VD[0..7],VRAM,VRD,VWR,WAIT_CPU,WR,B_OUT,C_OUT,G_OUT,R_OUT,Y_OUT,S_A,S_B,S_C,V_OUT">
@@ -25015,9 +25018,9 @@ DD7</text>
 </segment>
 <segment>
 <pinref part="X3P" gate="1" pin="4"/>
-<wire x1="289.56" y1="236.22" x2="289.56" y2="248.92" width="0.1524" layer="91"/>
 <pinref part="GND29" gate="1" pin="GND"/>
-<wire x1="289.56" y1="248.92" x2="297.18" y2="248.92" width="0.1524" layer="91"/>
+<wire x1="284.48" y1="231.14" x2="287.02" y2="231.14" width="0.1524" layer="91"/>
+<wire x1="287.02" y1="231.14" x2="287.02" y2="228.6" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+5V" class="0">
@@ -25301,8 +25304,8 @@ DD7</text>
 <segment>
 <pinref part="P+17" gate="1" pin="+5V"/>
 <pinref part="X3P" gate="1" pin="3"/>
-<wire x1="289.56" y1="233.68" x2="284.48" y2="233.68" width="0.1524" layer="91"/>
-<wire x1="284.48" y1="233.68" x2="284.48" y2="238.76" width="0.1524" layer="91"/>
+<wire x1="284.48" y1="233.68" x2="287.02" y2="233.68" width="0.1524" layer="91"/>
+<wire x1="287.02" y1="233.68" x2="287.02" y2="241.3" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="A0" class="0">
@@ -26051,8 +26054,8 @@ DD7</text>
 <label x="248.92" y="236.22" size="1.778" layer="95"/>
 </segment>
 <segment>
-<label x="279.4" y="228.6" size="1.778" layer="95"/>
-<wire x1="289.56" y1="228.6" x2="279.4" y2="228.6" width="0.1524" layer="91"/>
+<label x="289.56" y="238.76" size="1.778" layer="95"/>
+<wire x1="284.48" y1="238.76" x2="294.64" y2="238.76" width="0.1524" layer="91"/>
 <pinref part="X3P" gate="1" pin="1"/>
 </segment>
 </net>
@@ -27223,8 +27226,8 @@ DD7</text>
 <label x="243.84" y="226.06" size="1.778" layer="95"/>
 </segment>
 <segment>
-<label x="279.4" y="231.14" size="1.778" layer="95"/>
-<wire x1="289.56" y1="231.14" x2="279.4" y2="231.14" width="0.1524" layer="91"/>
+<label x="289.56" y="236.22" size="1.778" layer="95"/>
+<wire x1="284.48" y1="236.22" x2="294.64" y2="236.22" width="0.1524" layer="91"/>
 <pinref part="X3P" gate="1" pin="2"/>
 </segment>
 </net>

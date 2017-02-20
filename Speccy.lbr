@@ -1571,14 +1571,14 @@ Cermet, abgedichtet nach IP67</description>
 <wire x1="-18.415" y1="-16.51" x2="-16.51" y2="-18.415" width="0.127" layer="21" curve="90"/>
 <wire x1="16.51" y1="18.415" x2="18.415" y2="16.51" width="0.127" layer="21" curve="-90"/>
 <wire x1="-18.415" y1="15.875" x2="-15.875" y2="18.415" width="0.127" layer="21"/>
-<hole x="-5.845" y="5.845" drill="3.2"/>
-<hole x="5.845" y="5.845" drill="3.2"/>
-<hole x="-5.845" y="-5.845" drill="3.2"/>
-<hole x="5.845" y="-5.845" drill="3.2"/>
-<wire x1="-7.5" y1="7.5" x2="7.5" y2="7.5" width="0.0254" layer="51"/>
-<wire x1="7.5" y1="7.5" x2="7.5" y2="-7.5" width="0.0254" layer="51"/>
-<wire x1="7.5" y1="-7.5" x2="-7.5" y2="-7.5" width="0.0254" layer="51"/>
-<wire x1="-7.5" y1="-7.5" x2="-7.5" y2="7.5" width="0.0254" layer="51"/>
+<hole x="-5.745" y="5.745" drill="3.2"/>
+<hole x="5.745" y="5.745" drill="3.2"/>
+<hole x="-5.745" y="-5.745" drill="3.2"/>
+<hole x="5.745" y="-5.745" drill="3.2"/>
+<wire x1="-7.4" y1="7.4" x2="7.4" y2="7.4" width="0.0254" layer="51"/>
+<wire x1="7.4" y1="7.4" x2="7.4" y2="-7.4" width="0.0254" layer="51"/>
+<wire x1="7.4" y1="-7.4" x2="-7.4" y2="-7.4" width="0.0254" layer="51"/>
+<wire x1="-7.4" y1="-7.4" x2="-7.4" y2="7.4" width="0.0254" layer="51"/>
 </package>
 <package name="DIL14">
 <description>&lt;b&gt;Dual In Line Package&lt;/b&gt;</description>
