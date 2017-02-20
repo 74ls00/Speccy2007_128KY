@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="3.937008" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -1559,7 +1559,7 @@ Cermet, abgedichtet nach IP67</description>
 <text x="17.78" y="15.875" size="1.6764" layer="51" rot="R180">74</text>
 <text x="17.78" y="-13.97" size="1.6764" layer="51" rot="R180">54</text>
 <text x="11.43" y="-18.0975" size="1.6764" layer="51">53</text>
-<text x="-13.97" y="-18.0975" size="1.6764" layer="51">33</text>
+<text x="-12.7" y="-16.1925" size="1.6764" layer="51" rot="R180">33</text>
 <text x="-17.78" y="-15.24" size="1.6764" layer="51">32</text>
 <text x="-3.81" y="8.89" size="1.27" layer="25">&gt;NAME</text>
 <text x="-3.81" y="-10.16" size="1.27" layer="27">&gt;VALUE</text>
