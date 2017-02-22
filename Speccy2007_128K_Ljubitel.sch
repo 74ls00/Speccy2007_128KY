@@ -23577,7 +23577,7 @@ Source: www.kingbright.com</description>
 <part name="P+8" library="supply1" deviceset="+5V" device=""/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
 <part name="R24" library="Speccy" deviceset="R-EU_" device="0207/10" value="2k2"/>
-<part name="R19" library="rcl" deviceset="R-EU_" device="M1206" value="10k"/>
+<part name="R19" library="rcl" deviceset="R-EU_" device="M0805" value="10k"/>
 <part name="R20" library="rcl" deviceset="R-EU_" device="R0805" value="10k"/>
 <part name="R21" library="Speccy" deviceset="R-EU_" device="0207/10" value="10k"/>
 <part name="R22" library="rcl" deviceset="R-EU_" device="R0805" value="4k7"/>

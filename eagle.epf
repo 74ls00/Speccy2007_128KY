@@ -29,14 +29,6 @@ UsedLibrary="G:/home/Documents/Projects/EAGLE/my_lbr/sd-mmc.lbr"
 UsedLibrary="Speccy.lbr"
 
 [Win_1]
-Type="CAM Processor"
-Loc="31 159 808 594"
-State=2
-Number=3
-File="Speccy2007_128K_Ljubitel.brd"
-Job="G:/home/Documents/EAGLE/Speccy2007_128K_Ljubitel/ExportGerber.cam"
-
-[Win_2]
 Type="Schematic Editor"
 Loc="332 293 931 692"
 State=1
@@ -77,7 +69,7 @@ Layer=91
 Views=" 1: 76.1945 -100.269 529.023 152.322"
 Sheet=1
 
-[Win_3]
+[Win_2]
 Type="Board Editor"
 Loc="337 98 1145 861"
 State=1
@@ -116,9 +108,17 @@ AddLevel=2
 PadsSameType=0
 Layer=16
 
+[Win_3]
+Type="CAM Processor"
+Loc="31 159 808 594"
+State=2
+Number=3
+File="Speccy2007_128K_Ljubitel.brd"
+Job="G:/home/Documents/EAGLE/Speccy2007_128K_Ljubitel/ExportGerber.cam"
+
 [Win_4]
 Type="Control Panel"
-Loc="142 271 1106 716"
+Loc="106 278 1070 723"
 State=2
 Number=0
 
