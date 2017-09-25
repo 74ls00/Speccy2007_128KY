@@ -23703,7 +23703,7 @@ Source: www.kingbright.com</description>
 <part name="P+18" library="supply1" deviceset="+5V" device=""/>
 <part name="HL2" library="led" deviceset="LED" device="SML0805" value="sdcard"/>
 <part name="HL1" library="led" deviceset="LED" device="SML0805" value="power"/>
-<part name="R25" library="rcl" deviceset="R-EU_" device="R0805" value="1k"/>
+<part name="R25" library="rcl" deviceset="R-EU_" device="R0805" value="150"/>
 <part name="GND27" library="supply1" deviceset="GND" device=""/>
 <part name="R26" library="rcl" deviceset="R-EU_" device="R1206" value="1k"/>
 <part name="CP2" library="Speccy" deviceset="CPOL-EU" device="E2.5-6" value="220mf"/>
@@ -23745,6 +23745,8 @@ DD2</text>
 <text x="144.78" y="269.24" size="1.778" layer="91">C
 X1</text>
 <text x="276.86" y="256.54" size="6.4516" layer="91" distance="70">Speccy2007 128K Y</text>
+<text x="414.02" y="167.64" size="1.778" layer="91">green</text>
+<text x="378.46" y="231.14" size="1.778" layer="91">red</text>
 </plain>
 <instances>
 <instance part="DD2" gate=".1" x="114.3" y="190.5"/>
@@ -24164,7 +24166,10 @@ X1</text>
 <instance part="P+18" gate="1" x="33.02" y="264.16" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="30.48" y="266.7" size="1.778" layer="96" rot="MR180"/>
 </instance>
-<instance part="HL2" gate="G$1" x="378.46" y="228.6" rot="R90"/>
+<instance part="HL2" gate="G$1" x="378.46" y="228.6" smashed="yes" rot="R90">
+<attribute name="NAME" x="378.968" y="235.204" size="1.778" layer="95"/>
+<attribute name="VALUE" x="376.428" y="233.045" size="1.778" layer="96"/>
+</instance>
 <instance part="HL1" gate="G$1" x="411.48" y="172.72" smashed="yes">
 <attribute name="NAME" x="414.528" y="171.704" size="1.778" layer="95"/>
 <attribute name="VALUE" x="414.528" y="169.545" size="1.778" layer="96"/>
