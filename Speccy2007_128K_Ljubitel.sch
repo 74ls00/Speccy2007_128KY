@@ -6488,7 +6488,7 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="-10.16" y1="25.4" x2="7.62" y2="25.4" width="0.254" layer="94"/>
 <wire x1="-10.16" y1="-27.94" x2="7.62" y2="-27.94" width="0.254" layer="94"/>
 <text x="-7.62" y="27.94" size="1.778" layer="95">&gt;NAME</text>
-<text x="-7.62" y="-30.48" size="1.016" layer="96">&gt;VALUE</text>
+<text x="-7.62" y="-30.48" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -11795,7 +11795,6 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <pad name="9" x="5.08" y="-1.27" drill="1.016" diameter="2.1844" shape="octagon"/>
 <pad name="2" x="-5.08" y="1.27" drill="1.016" diameter="2.1844" shape="octagon"/>
 <pad name="4" x="-2.54" y="1.27" drill="1.016" diameter="2.1844" shape="octagon"/>
-<pad name="6" x="0" y="1.27" drill="1.016" diameter="2.1844" shape="octagon"/>
 <pad name="8" x="2.54" y="1.27" drill="1.016" diameter="2.1844" shape="octagon"/>
 <pad name="10" x="5.08" y="1.27" drill="1.016" diameter="2.1844" shape="octagon"/>
 <text x="-5.588" y="-4.191" size="1.27" layer="21" ratio="10">1</text>
@@ -11809,7 +11808,6 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <rectangle x1="2.286" y1="-1.524" x2="2.794" y2="-1.016" layer="51"/>
 <rectangle x1="-5.334" y1="1.016" x2="-4.826" y2="1.524" layer="51"/>
 <rectangle x1="-2.794" y1="1.016" x2="-2.286" y2="1.524" layer="51"/>
-<rectangle x1="-0.254" y1="1.016" x2="0.254" y2="1.524" layer="51"/>
 <rectangle x1="2.286" y1="1.016" x2="2.794" y2="1.524" layer="51"/>
 <rectangle x1="4.826" y1="1.016" x2="5.334" y2="1.524" layer="51"/>
 </package>
@@ -13126,27 +13124,6 @@ grid 2.54 mm, diameter 4 mm</description>
 <pad name="-" x="1.27" y="0" drill="0.8128" diameter="1.6002" shape="octagon"/>
 <text x="0.762" y="1.016" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="0.762" y="-2.286" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-</package>
-<package name="E2,5-6">
-<description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
-grid 2.54 mm, diameter 6 mm</description>
-<wire x1="-2.032" y1="1.27" x2="-1.651" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="-1.651" y1="0.889" x2="-1.651" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="-1.651" y1="1.27" x2="-1.27" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="-1.651" y1="1.27" x2="-1.651" y2="1.651" width="0.1524" layer="21"/>
-<wire x1="-1.651" y1="0" x2="-0.762" y2="0" width="0.1524" layer="51"/>
-<wire x1="-0.762" y1="0" x2="-0.762" y2="-1.27" width="0.1524" layer="51"/>
-<wire x1="-0.762" y1="-1.27" x2="-0.254" y2="-1.27" width="0.1524" layer="51"/>
-<wire x1="-0.254" y1="-1.27" x2="-0.254" y2="1.27" width="0.1524" layer="51"/>
-<wire x1="-0.254" y1="1.27" x2="-0.762" y2="1.27" width="0.1524" layer="51"/>
-<wire x1="-0.762" y1="1.27" x2="-0.762" y2="0" width="0.1524" layer="51"/>
-<wire x1="0.635" y1="0" x2="1.651" y2="0" width="0.1524" layer="51"/>
-<circle x="0" y="0" radius="2.794" width="0.1524" layer="21"/>
-<pad name="-" x="1.27" y="0" drill="0.8128" diameter="1.6002" shape="octagon"/>
-<pad name="+" x="-1.27" y="0" drill="0.8128" diameter="1.6002"/>
-<text x="2.667" y="1.524" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="2.667" y="-2.667" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-<rectangle x1="0.254" y1="-1.27" x2="0.762" y2="1.27" layer="51"/>
 </package>
 <package name="E2,5-7">
 <description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -17670,6 +17647,27 @@ Source: 008-0260-0_E.pdf</description>
 <hole x="-4.445" y="-4.445" drill="6"/>
 <hole x="4.445" y="-4.445" drill="6"/>
 </package>
+<package name="E2,5-6">
+<description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
+grid 2.54 mm, diameter 6 mm</description>
+<wire x1="-2.032" y1="1.27" x2="-1.651" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-1.651" y1="0.889" x2="-1.651" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-1.651" y1="1.27" x2="-1.27" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-1.651" y1="1.27" x2="-1.651" y2="1.651" width="0.1524" layer="21"/>
+<wire x1="-1.651" y1="0" x2="-0.762" y2="0" width="0.1524" layer="51"/>
+<wire x1="-0.762" y1="0" x2="-0.762" y2="-1.27" width="0.1524" layer="51"/>
+<wire x1="-0.762" y1="-1.27" x2="-0.254" y2="-1.27" width="0.1524" layer="51"/>
+<wire x1="-0.254" y1="-1.27" x2="-0.254" y2="1.27" width="0.1524" layer="51"/>
+<wire x1="-0.254" y1="1.27" x2="-0.762" y2="1.27" width="0.1524" layer="51"/>
+<wire x1="-0.762" y1="1.27" x2="-0.762" y2="0" width="0.1524" layer="51"/>
+<wire x1="0.635" y1="0" x2="1.651" y2="0" width="0.1524" layer="51"/>
+<circle x="0" y="0" radius="2.794" width="0.1524" layer="21"/>
+<pad name="-" x="1.27" y="0" drill="0.8128" diameter="2.1844" shape="octagon"/>
+<pad name="+" x="-1.27" y="0" drill="0.8128" diameter="2.1844"/>
+<text x="2.667" y="1.524" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="2.667" y="-2.667" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<rectangle x1="0.254" y1="-1.27" x2="0.762" y2="1.27" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="74245">
@@ -17954,7 +17952,6 @@ Source: 008-0260-0_E.pdf</description>
 <wire x1="1.27" y1="0" x2="2.54" y2="0" width="0.6096" layer="94"/>
 <wire x1="1.27" y1="-2.54" x2="2.54" y2="-2.54" width="0.6096" layer="94"/>
 <wire x1="1.27" y1="-5.08" x2="2.54" y2="-5.08" width="0.6096" layer="94"/>
-<wire x1="-2.54" y1="0" x2="-1.27" y2="0" width="0.6096" layer="94"/>
 <wire x1="-2.54" y1="-2.54" x2="-1.27" y2="-2.54" width="0.6096" layer="94"/>
 <wire x1="-2.54" y1="-5.08" x2="-1.27" y2="-5.08" width="0.6096" layer="94"/>
 <wire x1="-3.81" y1="7.62" x2="-3.81" y2="-7.62" width="0.4064" layer="94"/>
@@ -17971,7 +17968,6 @@ Source: 008-0260-0_E.pdf</description>
 <pin name="5" x="7.62" y="0" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="2" x="-7.62" y="-5.08" visible="pad" length="middle" direction="pas" swaplevel="1"/>
 <pin name="4" x="-7.62" y="-2.54" visible="pad" length="middle" direction="pas" swaplevel="1"/>
-<pin name="6" x="-7.62" y="0" visible="pad" length="middle" direction="pas" swaplevel="1"/>
 <pin name="7" x="7.62" y="2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="9" x="7.62" y="5.08" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="8" x="-7.62" y="2.54" visible="pad" length="middle" direction="pas" swaplevel="1"/>
@@ -20005,7 +20001,6 @@ KINGFONT SDCMF-10915W010</description>
 <connect gate="G$1" pin="3" pad="3"/>
 <connect gate="G$1" pin="4" pad="4"/>
 <connect gate="G$1" pin="5" pad="5"/>
-<connect gate="G$1" pin="6" pad="6"/>
 <connect gate="G$1" pin="7" pad="7"/>
 <connect gate="G$1" pin="8" pad="8"/>
 <connect gate="G$1" pin="9" pad="9"/>
@@ -23560,7 +23555,7 @@ Source: www.kingbright.com</description>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="P+2" library="supply1" deviceset="+5V" device=""/>
 <part name="Z1" library="Speccy" deviceset="CRYSTAL" device="HC49U-H" value="14Mhz"/>
-<part name="R34" library="rcl" deviceset="R-EU_" device="R0805" value="360"/>
+<part name="R34" library="rcl" deviceset="R-EU_" device="R0805" value="390"/>
 <part name="P+3" library="supply1" deviceset="+5V" device=""/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="P+5" library="supply1" deviceset="+5V" device=""/>
@@ -23616,10 +23611,10 @@ Source: www.kingbright.com</description>
 <part name="DD3" library="Speccy" deviceset="621024" device="P" value="621024"/>
 <part name="P+11" library="supply1" deviceset="+5V" device=""/>
 <part name="DD11" library="Speccy" deviceset="74*04" device="N" technology="LS" value="К555ЛН1"/>
-<part name="-R3" library="rcl" deviceset="R-EU_" device="R0805" value="360"/>
+<part name="-R3" library="rcl" deviceset="R-EU_" device="R0805" value="390"/>
 <part name="Z2" library="Speccy" deviceset="CRYSTAL" device="HC49U-H" value="4.43Mhz"/>
-<part name="R112" library="rcl" deviceset="R-EU_" device="R0805" value="360"/>
-<part name="R27" library="rcl" deviceset="R-EU_" device="R0805" value="360"/>
+<part name="R112" library="rcl" deviceset="R-EU_" device="R0805" value="390"/>
+<part name="R27" library="rcl" deviceset="R-EU_" device="R0805" value="390"/>
 <part name="DA1" library="cxa1645" deviceset="CXA1645" device="-P" value="CXA1645P"/>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
 <part name="P+12" library="supply1" deviceset="+5V" device=""/>
@@ -23633,13 +23628,13 @@ Source: www.kingbright.com</description>
 <part name="C1P" library="rcl" deviceset="C-EU" device="C0805" value="100n"/>
 <part name="R_SY" library="Speccy" deviceset="R-TRIMM" device="3296W"/>
 <part name="R9P" library="rcl" deviceset="R-EU_" device="R1206" value="75"/>
-<part name="C9P" library="Speccy" deviceset="CPOL-EU" device="E2.5-5" value="220mf"/>
+<part name="C9P" library="Speccy" deviceset="CPOL-EU" device="E2.5-6" value="220mf"/>
 <part name="R5P" library="rcl" deviceset="R-EU_" device="M1206" value="16k*"/>
 <part name="C5P" library="rcl" deviceset="C-EU" device="C1206" value="100n"/>
 <part name="R6P" library="rcl" deviceset="R-EU_" device="R0805" value="47k"/>
 <part name="C6P" library="Speccy" deviceset="CPOL-EU" device="E2.5-5" value="10mf"/>
 <part name="R8P" library="rcl" deviceset="R-EU_" device="R1206" value="75"/>
-<part name="C8P" library="Speccy" deviceset="CPOL-EU" device="E2.5-5" value="220mf"/>
+<part name="C8P" library="Speccy" deviceset="CPOL-EU" device="E2.5-6" value="220mf"/>
 <part name="R1D" library="rcl" deviceset="R-EU_" device="R0805" value="10k"/>
 <part name="R2D" library="rcl" deviceset="R-EU_" device="M0805" value="10k"/>
 <part name="R3D" library="rcl" deviceset="R-EU_" device="R0805" value="10k"/>
@@ -23676,7 +23671,7 @@ Source: www.kingbright.com</description>
 <part name="GND22" library="supply1" deviceset="GND" device=""/>
 <part name="C8" library="rcl" deviceset="C-EU" device="C0805" value="100n"/>
 <part name="GND23" library="supply1" deviceset="GND" device=""/>
-<part name="C9" library="Speccy" deviceset="CPOL-EU" device="E2.5-5" value="220mf"/>
+<part name="C9" library="Speccy" deviceset="CPOL-EU" device="E2.5-6" value="220mf"/>
 <part name="GND24" library="supply1" deviceset="GND" device=""/>
 <part name="P+4" library="supply1" deviceset="+5V" device=""/>
 <part name="CY" library="rcl" deviceset="C-EU" device="C0805" value="100n"/>
@@ -23690,8 +23685,8 @@ Source: www.kingbright.com</description>
 <part name="CE1" library="rcl" deviceset="C-EU" device="C0805" value="100n"/>
 <part name="+3V1" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V2" library="supply1" deviceset="+3V3" device=""/>
-<part name="C8P1" library="Speccy" deviceset="CPOL-EU" device="E2.5-5" value="220mf"/>
-<part name="C8P2" library="Speccy" deviceset="CPOL-EU" device="E2.5-5" value="220mf"/>
+<part name="C8P1" library="Speccy" deviceset="CPOL-EU" device="E2.5-6" value="220mf"/>
+<part name="C8P2" library="Speccy" deviceset="CPOL-EU" device="E2.5-6" value="220mf"/>
 <part name="R9P1" library="rcl" deviceset="R-EU_" device="R1206" value="75"/>
 <part name="R9P2" library="rcl" deviceset="R-EU_" device="R1206" value="75"/>
 <part name="J1" library="rcl" deviceset="R-EU_" device="M1206"/>
@@ -23699,7 +23694,7 @@ Source: www.kingbright.com</description>
 <part name="DD12" library="Speccy" deviceset="74*74" device="O" technology="LS" value="К155ТМ2"/>
 <part name="P+15" library="supply1" deviceset="+5V" device=""/>
 <part name="R3" library="rcl" deviceset="R-EU_" device="R0805" value="1k"/>
-<part name="DA2" library="AWJLEagleLib" deviceset="AP1117" device=""/>
+<part name="DA2" library="AWJLEagleLib" deviceset="AP1117" device="" value="L1117-3.3"/>
 <part name="GND25" library="supply1" deviceset="GND" device=""/>
 <part name="P+16" library="supply1" deviceset="+5V" device=""/>
 <part name="CT" library="rcl" deviceset="C-EU" device="C1206" value="100n"/>
@@ -23711,7 +23706,7 @@ Source: www.kingbright.com</description>
 <part name="R25" library="rcl" deviceset="R-EU_" device="R0805" value="1k"/>
 <part name="GND27" library="supply1" deviceset="GND" device=""/>
 <part name="R26" library="rcl" deviceset="R-EU_" device="R1206" value="1k"/>
-<part name="CP2" library="Speccy" deviceset="CPOL-EU" device="E2.5-5" value="220mf"/>
+<part name="CP2" library="Speccy" deviceset="CPOL-EU" device="E2.5-6" value="220mf"/>
 <part name="CP1" library="rcl" deviceset="C-EU" device="C0805" value="100n"/>
 <part name="X3P" library="con-lstb" deviceset="MA04-1" device=""/>
 <part name="P+17" library="supply1" deviceset="+5V" device=""/>
@@ -23801,7 +23796,10 @@ X1</text>
 <instance part="P+7" gate="1" x="149.86" y="50.8" smashed="yes" rot="MR270">
 <attribute name="VALUE" x="149.86" y="50.8" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="DD9" gate="G$1" x="287.02" y="208.28" rot="R180"/>
+<instance part="DD9" gate="G$1" x="287.02" y="208.28" smashed="yes" rot="R180">
+<attribute name="NAME" x="289.56" y="238.76" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="281.94" y="180.34" size="1.778" layer="96"/>
+</instance>
 <instance part="GND2" gate="1" x="304.8" y="182.88"/>
 <instance part="P+8" gate="1" x="261.62" y="185.42" rot="R90"/>
 <instance part="GND6" gate="1" x="264.16" y="223.52"/>
