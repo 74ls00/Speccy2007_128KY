@@ -175,6 +175,10 @@ DIP 128KB Y</text>
 <text x="21.2725" y="6.0325" size="1.9304" layer="1" font="vector" ratio="15">SD Card</text>
 <rectangle x1="23.1775" y1="19.685" x2="27.6225" y2="24.4475" layer="16"/>
 <text x="71.4375" y="8.89" size="1.9304" layer="1" font="vector" ratio="15">r1.01</text>
+<text x="166.0525" y="91.44" size="1.27" layer="21" font="vector" ratio="15">G</text>
+<text x="163.5125" y="91.44" size="1.27" layer="21" font="vector" ratio="15">V</text>
+<text x="160.9725" y="91.44" size="1.27" layer="21" font="vector" ratio="15">D</text>
+<text x="158.4325" y="91.44" size="1.27" layer="21" font="vector" ratio="15">C</text>
 </plain>
 <libraries>
 <library name="atmel">
@@ -2909,8 +2913,8 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="40.64" y="21.74875" size="1.27" layer="28" rot="MR0"/>
 </element>
 <element name="X3" library="Speccy" package="MINI-DIN6" value="PS/2 KB" x="162.56" y="113.18875" smashed="yes">
-<attribute name="NAME" x="160.3375" y="98.90125" size="1.27" layer="25"/>
-<attribute name="VALUE" x="158.115" y="96.99625" size="1.27" layer="27"/>
+<attribute name="NAME" x="156.5275" y="98.90125" size="1.27" layer="25"/>
+<attribute name="VALUE" x="160.02" y="98.90125" size="1.27" layer="27"/>
 </element>
 <element name="DD3" library="Speccy" package="DIL32" value="621024" x="145.7325" y="24.28875" smashed="yes" rot="R90">
 <attribute name="OC_NEWARK" value="unknown" x="145.7325" y="24.28875" size="1.778" layer="27" rot="R90" display="off"/>
@@ -3154,7 +3158,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="27.14625" y="82.70875" size="1.27" layer="26" rot="MR180"/>
 <attribute name="VALUE" x="28.09875" y="81.12125" size="1.27" layer="28" rot="MR180"/>
 </element>
-<element name="J1" library="rcl" package="M1206" value="" x="110.1725" y="76.67625" smashed="yes" rot="MR270">
+<element name="J1" library="rcl" package="M1206" value="0" x="110.1725" y="76.67625" smashed="yes" rot="MR270">
 <attribute name="NAME" x="108.2675" y="76.04125" size="1.27" layer="26" rot="MR0"/>
 <attribute name="VALUE" x="112.7125" y="77.94625" size="1.27" layer="28" rot="MR270"/>
 </element>
@@ -3206,13 +3210,13 @@ design rules under a new name.</description>
 <attribute name="NAME" x="15.5575" y="81.5975" size="1.27" layer="26" rot="MR0"/>
 <attribute name="VALUE" x="15.875" y="80.01" size="1.27" layer="28" rot="MR0"/>
 </element>
-<element name="X3P" library="con-lstb" package="MA04-1" value="" x="162.56" y="94.615" smashed="yes">
+<element name="X3P" library="con-lstb" package="MA04-1" value="KB" x="162.56" y="94.615" smashed="yes">
 <attribute name="OC_NEWARK" value="unknown" x="162.56" y="94.615" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="162.56" y="94.615" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="" x="162.56" y="94.615" size="1.778" layer="27" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="162.56" y="94.615" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="164.1475" y="98.4885" size="1.27" layer="25" ratio="10"/>
-<attribute name="VALUE" x="163.195" y="96.266" size="1.27" layer="27" ratio="10"/>
+<attribute name="NAME" x="156.21" y="89.281" size="1.27" layer="25" ratio="10"/>
+<attribute name="VALUE" x="160.655" y="89.281" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="CE2" library="rcl" package="C0805" value="100n" x="74.6125" y="41.5925" smashed="yes" rot="MR270">
 <attribute name="NAME" x="73.3425" y="41.91" size="1.27" layer="26" rot="MR0"/>

@@ -23689,7 +23689,7 @@ Source: www.kingbright.com</description>
 <part name="C8P2" library="Speccy" deviceset="CPOL-EU" device="E2.5-6" value="220mf"/>
 <part name="R9P1" library="rcl" deviceset="R-EU_" device="R1206" value="75"/>
 <part name="R9P2" library="rcl" deviceset="R-EU_" device="R1206" value="75"/>
-<part name="J1" library="rcl" deviceset="R-EU_" device="M1206"/>
+<part name="J1" library="rcl" deviceset="R-EU_" device="M1206" value="0"/>
 <part name="R2" library="rcl" deviceset="R-EU_" device="R1206" value="0"/>
 <part name="DD12" library="Speccy" deviceset="74*74" device="O" technology="LS" value="К155ТМ2"/>
 <part name="P+15" library="supply1" deviceset="+5V" device=""/>
@@ -23708,7 +23708,7 @@ Source: www.kingbright.com</description>
 <part name="R26" library="rcl" deviceset="R-EU_" device="R1206" value="1k"/>
 <part name="CP2" library="Speccy" deviceset="CPOL-EU" device="E2.5-6" value="220mf"/>
 <part name="CP1" library="rcl" deviceset="C-EU" device="C0805" value="100n"/>
-<part name="X3P" library="con-lstb" deviceset="MA04-1" device=""/>
+<part name="X3P" library="con-lstb" deviceset="MA04-1" device="" value="KB"/>
 <part name="P+17" library="supply1" deviceset="+5V" device=""/>
 <part name="GND29" library="supply1" deviceset="GND" device=""/>
 <part name="CE2" library="rcl" deviceset="C-EU" device="C0805" value="100n"/>
@@ -24187,7 +24187,7 @@ X1</text>
 <instance part="CP2" gate="G$1" x="137.16" y="261.62"/>
 <instance part="CP1" gate="G$1" x="127" y="261.62"/>
 <instance part="X3P" gate="1" x="200.66" y="256.54" smashed="yes" rot="MR180">
-<attribute name="VALUE" x="199.39" y="266.7" size="1.778" layer="96" rot="MR180"/>
+<attribute name="VALUE" x="204.47" y="248.92" size="1.778" layer="96" rot="MR0"/>
 <attribute name="NAME" x="204.47" y="264.922" size="1.778" layer="95" rot="MR0"/>
 </instance>
 <instance part="P+17" gate="1" x="210.82" y="266.7" smashed="yes">
