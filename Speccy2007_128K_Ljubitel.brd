@@ -3235,8 +3235,14 @@ design rules under a new name.</description>
 <attribute name="NAME" x="5.715" y="79.21625" size="1.27" layer="25" rot="R90"/>
 <attribute name="VALUE" x="7.62" y="79.53375" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="Z2" library="Speccy" package="HC49U-H" value="8867.232KHz/4..20pf" x="35.2425" y="64.135" rot="R270"/>
-<element name="J2" library="rcl" package="R0805" value="0" x="47.3075" y="67.6275" rot="MR90"/>
+<element name="Z2" library="Speccy" package="HC49U-H" value="8867.232KHz/4..20pf" x="35.2425" y="64.135" smashed="yes" rot="R270">
+<attribute name="NAME" x="33.8455" y="67.3735" size="1.27" layer="25" ratio="10"/>
+<attribute name="VALUE" x="32.893" y="60.96" size="1.27" layer="27" ratio="10"/>
+</element>
+<element name="J2" library="rcl" package="R0805" value="0" x="47.3075" y="67.6275" smashed="yes" rot="MR90">
+<attribute name="NAME" x="47.3075" y="64.4525" size="1.27" layer="26" rot="MR0"/>
+<attribute name="VALUE" x="46.99" y="62.865" size="1.27" layer="28" rot="MR0"/>
+</element>
 </elements>
 <signals>
 <signal name="GND">
