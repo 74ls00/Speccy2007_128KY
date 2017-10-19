@@ -1,7 +1,0 @@
-altum
-save as 
-export p-cad ascii .pcb
-eagle
-run import-accel.ulp
-.pcb
-

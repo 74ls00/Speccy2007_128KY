@@ -23751,7 +23751,7 @@ Source: www.kingbright.com</description>
 <part name="HL1" library="led" deviceset="LED" device="SML0805" value="power"/>
 <part name="R25" library="rcl" deviceset="R-EU_" device="R0805" value="150"/>
 <part name="GND27" library="supply1" deviceset="GND" device=""/>
-<part name="R26" library="rcl" deviceset="R-EU_" device="R1206" value="1k"/>
+<part name="R26" library="rcl" deviceset="R-EU_" device="R1206" value="150"/>
 <part name="CP2" library="Speccy" deviceset="CPOL-EU" device="E2.5-6" value="220mf"/>
 <part name="CP1" library="rcl" deviceset="C-EU" device="C0805" value="100n"/>
 <part name="X3P" library="con-lstb" deviceset="MA04-1" device="" value="KB"/>
