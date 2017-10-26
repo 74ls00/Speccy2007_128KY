@@ -32,10 +32,10 @@
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
@@ -162,7 +162,7 @@
 <text x="35.2425" y="3.175" size="2.54" layer="16" font="vector" ratio="15" rot="MR0">Speccy2007
 DIP 128KB Y</text>
 <wire x1="84.93125" y1="41.91" x2="84.93125" y2="28.8925" width="0.6096" layer="117"/>
-<dimension x1="1.905" y1="0" x2="170.4975" y2="0" x3="86.20125" y3="-5.3975" layer="21" dtype="horizontal"/>
+<dimension x1="1.905" y1="0" x2="170.4975" y2="0" x3="86.20125" y3="-8.89" layer="21" dtype="horizontal"/>
 <dimension x1="172.72" y1="1.5875" x2="172.085" y2="113.9825" x3="177.8" y3="57.785" layer="21" dtype="vertical"/>
 <wire x1="156.5275" y1="55.245" x2="156.5275" y2="53.975" width="0.4064" layer="114"/>
 <wire x1="125.73" y1="5.23875" x2="127" y2="5.23875" width="0.4064" layer="114"/>
@@ -2815,7 +2815,7 @@ design rules under a new name.</description>
 </element>
 <element name="R41" library="rcl" package="R0805" value="1k" x="69.5325" y="84.29625" smashed="yes" rot="MR270">
 <attribute name="NAME" x="68.58" y="97.31375" size="1.27" layer="26" rot="MR270"/>
-<attribute name="VALUE" x="68.58" y="93.18625" size="1.27" layer="28" rot="MR270"/>
+<attribute name="VALUE" x="68.58" y="93.50375" size="1.27" layer="28" rot="MR270"/>
 </element>
 <element name="R42" library="rcl" package="R0805" value="2k" x="72.0725" y="84.29625" smashed="yes" rot="MR270">
 <attribute name="NAME" x="75.2475" y="93.50375" size="1.27" layer="26" rot="MR270"/>
@@ -2830,16 +2830,16 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="48.5775" y="78.89875" size="1.27" layer="28" rot="MR90"/>
 </element>
 <element name="R46" library="rcl" package="R1206" value="4k7" x="65.7225" y="85.24875" smashed="yes" rot="MR0">
-<attribute name="NAME" x="66.3575" y="95.09125" size="1.27" layer="26" rot="MR0"/>
-<attribute name="VALUE" x="66.675" y="93.50375" size="1.27" layer="28" rot="MR0"/>
-</element>
-<element name="R47" library="rcl" package="R0805" value="4k7" x="65.0875" y="83.02625" smashed="yes" rot="MR0">
-<attribute name="NAME" x="67.6275" y="91.28125" size="1.27" layer="26" rot="MR0"/>
+<attribute name="NAME" x="67.31" y="91.28125" size="1.27" layer="26" rot="MR0"/>
 <attribute name="VALUE" x="67.31" y="90.01125" size="1.27" layer="28" rot="MR0"/>
 </element>
+<element name="R47" library="rcl" package="R0805" value="4k7" x="65.0875" y="83.02625" smashed="yes" rot="MR0">
+<attribute name="NAME" x="66.675" y="80.48625" size="1.27" layer="26" rot="MR0"/>
+<attribute name="VALUE" x="66.675" y="78.89875" size="1.27" layer="28" rot="MR0"/>
+</element>
 <element name="C3Y" library="rcl" package="C0805" value="100n" x="60.96" y="83.02625" smashed="yes" rot="MR0">
-<attribute name="NAME" x="42.8625" y="83.66125" size="1.27" layer="26" rot="MR180"/>
-<attribute name="VALUE" x="43.18" y="81.75625" size="1.27" layer="28" rot="MR180"/>
+<attribute name="NAME" x="59.055" y="85.56625" size="1.27" layer="26" rot="MR180"/>
+<attribute name="VALUE" x="59.055" y="81.75625" size="1.27" layer="28" rot="MR180"/>
 </element>
 <element name="C1Y" library="Speccy" package="E2,5-5" value="1m" x="29.21" y="93.18625" smashed="yes" rot="R180">
 <attribute name="NAME" x="26.162" y="94.77375" size="1.27" layer="25" ratio="10" rot="R180"/>
@@ -2858,8 +2858,8 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="78.89875" y="67.945" size="1.27" layer="28" rot="MR0"/>
 </element>
 <element name="R49" library="rcl" package="R0805" value="4k7" x="56.67375" y="83.02625" smashed="yes" rot="MR0">
-<attribute name="NAME" x="61.11875" y="101.12375" size="1.27" layer="26" rot="MR0"/>
-<attribute name="VALUE" x="60.80125" y="102.71125" size="1.27" layer="28" rot="MR0"/>
+<attribute name="NAME" x="58.26125" y="84.61375" size="1.27" layer="26" rot="MR0"/>
+<attribute name="VALUE" x="57.94375" y="80.48625" size="1.27" layer="28" rot="MR0"/>
 </element>
 <element name="X6" library="Speccy" package="MA03-2" value="AVRISP" x="31.115" y="50.95875" smashed="yes" rot="R90">
 <attribute name="OC_NEWARK" value="unknown" x="31.115" y="50.95875" size="1.778" layer="27" rot="R90" display="off"/>
@@ -3169,11 +3169,11 @@ design rules under a new name.</description>
 </element>
 <element name="HL2" library="led" package="SML0805" value="sdcard" x="12.065" y="28.73375" smashed="yes" rot="R90">
 <attribute name="NAME" x="7.05625" y="29.1625" size="1.27" layer="25" rot="R180"/>
-<attribute name="VALUE" x="8.32625" y="27.7175" size="1.27" layer="27" rot="R180"/>
+<attribute name="VALUE" x="3.73875" y="26.2575" size="1.27" layer="27"/>
 </element>
 <element name="HL1" library="led" package="SML0805" value="power" x="12.065" y="33.81375" smashed="yes" rot="R270">
 <attribute name="NAME" x="7.37375" y="33.6075" size="1.27" layer="25" rot="R180"/>
-<attribute name="VALUE" x="8.00875" y="32.1625" size="1.27" layer="27" rot="R180"/>
+<attribute name="VALUE" x="3.73875" y="31.02" size="1.27" layer="27"/>
 </element>
 <element name="R34" library="rcl" package="R0805" value="150" x="9.2075" y="37.30625" smashed="yes" rot="R270">
 <attribute name="NAME" x="7.46125" y="39.0525" size="1.27" layer="25" rot="R180"/>
