@@ -8,5 +8,5 @@
 
 ![](https://raw.githubusercontent.com/74ls00/Speccy2007_128KY/master/pic/pcb_sl_f.png)
 
-![](https://raw.githubusercontent.com/74ls00/Speccy2007_by_Ljubitel/master/PCB/Sp2007.128.AY.jpg)
+![](https://raw.githubusercontent.com/74ls00/Speccy2007_128KY/master/Speccy2007_128KY_sh.png)
 
