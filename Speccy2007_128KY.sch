@@ -23862,30 +23862,30 @@ Source: www.kingbright.com</description>
 <sheets>
 <sheet>
 <plain>
-<text x="142.24" y="236.22" size="1.778" layer="91">C
+<text x="142.24" y="236.22" size="1.778" layer="98">C
 DA1</text>
-<text x="134.62" y="236.22" size="1.778" layer="91">C
+<text x="134.62" y="236.22" size="1.778" layer="98">C
 DA1</text>
-<text x="68.58" y="236.22" size="1.778" layer="91">C
+<text x="68.58" y="236.22" size="1.778" layer="98">C
 DD12</text>
-<text x="53.34" y="236.22" size="1.778" layer="91">C
+<text x="53.34" y="236.22" size="1.778" layer="98">C
 DD2</text>
-<text x="114.3" y="236.22" size="1.778" layer="91">C
+<text x="114.3" y="236.22" size="1.778" layer="98">C
 DD9</text>
-<text x="76.2" y="236.22" size="1.778" layer="91">C
+<text x="76.2" y="236.22" size="1.778" layer="98">C
 DD3
 DD10</text>
-<text x="83.82" y="236.22" size="1.778" layer="91">C
+<text x="83.82" y="236.22" size="1.778" layer="98">C
 DD8</text>
-<text x="60.96" y="236.22" size="1.778" layer="91">C
+<text x="60.96" y="236.22" size="1.778" layer="98">C
 DD1</text>
-<text x="106.68" y="236.22" size="1.778" layer="91">C
+<text x="106.68" y="236.22" size="1.778" layer="98">C
 DD7</text>
-<text x="99.06" y="236.22" size="1.778" layer="91">C
+<text x="99.06" y="236.22" size="1.778" layer="98">C
 DD2</text>
-<text x="127" y="236.22" size="1.778" layer="91">C
+<text x="127" y="236.22" size="1.778" layer="98">C
 X1</text>
-<text x="266.7" y="223.52" size="6.4516" layer="91" distance="70">Speccy2007 128K Y PAL</text>
+<text x="266.7" y="223.52" size="6.4516" layer="98" distance="70">Speccy2007 128K Y PAL</text>
 <text x="403.86" y="134.62" size="1.778" layer="98">green</text>
 <text x="368.3" y="198.12" size="1.778" layer="98">red</text>
 <text x="294.64" y="20.32" size="1.778" layer="98" rot="MR180">                         OR
@@ -23893,7 +23893,7 @@ Z2      4.433619   8.867232   MHz
 DD12  none          74**74
 R40    none          1k
 J3       none           0ohm</text>
-<text x="38.1" y="236.22" size="1.778" layer="91">C
+<text x="38.1" y="236.22" size="1.778" layer="98">C
 DD11</text>
 <wire x1="0" y1="248.92" x2="416.56" y2="248.92" width="0.4064" layer="98" style="longdash"/>
 <wire x1="416.56" y1="248.92" x2="416.56" y2="0" width="0.4064" layer="98" style="longdash"/>
