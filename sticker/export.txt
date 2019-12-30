@@ -1,0 +1,5 @@
+file - export - bmp  600 color
+
+fsimageviwer
+save as - png bw
+печать - размер = исходный размер
