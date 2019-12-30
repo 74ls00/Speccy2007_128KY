@@ -1,0 +1,28 @@
+
+
+Speccy2007 v1.06 (128 + AY + TRDOS)
+https://zx-pk.ru/threads/10316-speccy2007-v1-06-(128-ay-trdos).html
+
+Speccy2007 v1.00
+https://zx-pk.ru/threads/6679-speccy2007-v1-00.html
+
+Speccy2007 v2.00
+теоретическая тема заброшена в 2009
+https://zx-pk.ru/threads/9927-speccy2007-v2-00.html
+
+
+Ссылки на этот гит.
+Мой проект 2017
+https://github.com/74ls00/Speccy2007_128KY
+Авторский проект 2010
+https://github.com/74ls00/Speccy2007_by_Ljubitel
+
+Дальнейшее наблюдение за темой "Speccy2007 v1.06 (128 + AY + TRDOS)" начато в 2019.
+Вариант с одной микросхемой ОЗУ с.33
+прошивка к нему с.34
+Модифицированая прошивка с.35, исправление с.36, с.42, (43)
+
+
+
+
+
