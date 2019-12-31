@@ -3,6 +3,8 @@
 release
 dep
 
+default
+
 *.o
 *.eep
 *.elf
