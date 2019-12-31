@@ -35,9 +35,9 @@
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
@@ -173,7 +173,7 @@ DIP 128KB Y</text>
 DIP 128KB Y</text>
 <text x="21.2725" y="6.0325" size="1.9304" layer="1" font="vector" ratio="15">SD Card</text>
 <rectangle x1="23.1775" y1="19.685" x2="27.6225" y2="24.4475" layer="16"/>
-<text x="71.4375" y="8.89" size="1.9304" layer="1" font="vector" ratio="15">r1.01</text>
+<text x="71.4375" y="8.89" size="1.9304" layer="1" font="vector" ratio="15">r1.02</text>
 <text x="166.0525" y="91.44" size="1.27" layer="21" font="vector" ratio="15">G</text>
 <text x="163.5125" y="91.44" size="1.27" layer="21" font="vector" ratio="15">V</text>
 <text x="160.9725" y="91.44" size="1.27" layer="21" font="vector" ratio="15">D</text>
@@ -2976,7 +2976,7 @@ design rules under a new name.</description>
 <attribute name="MF" value="" x="145.7325" y="24.28875" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="145.7325" y="24.28875" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="143.129" y="3.58775" size="1.778" layer="25" rot="R180"/>
-<attribute name="VALUE" x="152.781" y="3.58775" size="1.778" layer="27" rot="R180"/>
+<attribute name="VALUE" x="144.399" y="1.9685" size="1.778" layer="27"/>
 </element>
 <element name="DD11" library="Speccy" package="DIL14" value="74LS04" x="17.4625" y="54.45125"/>
 <element name="R38" library="rcl" package="R0805" value="390" x="14.2875" y="55.40375" smashed="yes" rot="MR180">
