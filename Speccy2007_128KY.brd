@@ -162,7 +162,7 @@
 <text x="35.2425" y="3.175" size="2.54" layer="16" font="vector" ratio="15" rot="MR0">Speccy2007
 DIP 128KB Y</text>
 <wire x1="84.93125" y1="41.91" x2="84.93125" y2="28.8925" width="0.6096" layer="117"/>
-<dimension x1="1.905" y1="0" x2="170.4975" y2="0" x3="86.20125" y3="-8.89" textsize="3.5" layer="21" dtype="horizontal"/>
+<dimension x1="1.905" y1="0" x2="170.4975" y2="0" x3="86.20125" y3="-6.82625" textsize="3.5" layer="21" dtype="horizontal"/>
 <dimension x1="172.72" y1="1.5875" x2="172.085" y2="113.9825" x3="177.8" y3="57.785" textsize="3.5" layer="21" dtype="vertical"/>
 <wire x1="156.5275" y1="55.245" x2="156.5275" y2="53.975" width="0.4064" layer="114"/>
 <wire x1="125.73" y1="5.23875" x2="127" y2="5.23875" width="0.4064" layer="114"/>
